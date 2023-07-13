@@ -12,11 +12,16 @@
     "@types/node": "20.4.2",
     "@types/react": "18.2.15",
     "@types/react-dom": "18.2.7",
+    "collections": "^5.1.13",
     "eslint": "8.44.0",
     "eslint-config-next": "13.4.9",
+    "fastpriorityqueue": "^0.7.4",
     "next": "13.4.9",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "5.1.6"
+  },
+  "devDependencies": {
+    "@types/collections": "^5.1.2"
   }
 }

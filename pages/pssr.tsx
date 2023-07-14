@@ -6,22 +6,17 @@ import { Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
 
-function shuffleArray(array: any[]) {
-  return array.sort(function () {
-    return Math.random() - 0.5;
-  });
-}
-
 function createIds(size = 100) {
   const arr = new Array<number>(size);
   for (let i = 0; i < size; i++) {
     arr[i] = i + 1;
   }
-  //shuffleArray(arr);
+
   return arr;
 }
 
 const size = 100;
+
 export default function PSRR() {
   const ids = createIds(size);
   const items: ReactNode[] = [];

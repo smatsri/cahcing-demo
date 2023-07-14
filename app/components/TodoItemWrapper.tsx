@@ -8,14 +8,14 @@ type TodoItemWrapperProps = {
 const TodoItemWrapper = ({ id }: TodoItemWrapperProps) => {
   if (typeof window === "undefined") {
     const html = getTodoHtml(id);
-    return <div id="my-comp" dangerouslySetInnerHTML={{ __html: html }}></div>;
+    return <div dangerouslySetInnerHTML={{ __html: html }}></div>;
   }
 
+  const todo = (window as any)["todo_" + id];
+
   return (
-    <div id="my-comp">
-      <TodoItem
-        todo={{ id: 1, userId: 1, completed: false, title: "first task" }}
-      />
+    <div>
+      <TodoItem todo={todo} />
     </div>
   );
 };

@@ -1,16 +1,38 @@
 import TodoItemWrapper from "@/app/components/TodoItemWrapper";
 import { loadData } from "@/lib/todos/data";
 import { ReactNode } from "react";
+import "../app/globals.css";
+import { Inter } from "next/font/google";
 
-export default function PSRR() {
-  const items: ReactNode[] = [];
-  for (let i = 0; i < 20; i++) {
-    items.push(<TodoItemWrapper id={i + 1} />);
+const inter = Inter({ subsets: ["latin"] });
+
+function shuffleArray(array: any[]) {
+  return array.sort(function () {
+    return Math.random() - 0.5;
+  });
+}
+
+function createIds(size = 100) {
+  const arr = new Array<number>(size);
+  for (let i = 0; i < size; i++) {
+    arr[i] = i + 1;
   }
-  return <main>{items}</main>;
+  //shuffleArray(arr);
+  return arr;
+}
+
+const size = 100;
+export default function PSRR() {
+  const ids = createIds(size);
+  const items: ReactNode[] = [];
+  for (let i = 0; i < ids.length; i++) {
+    const id = ids[i];
+    items.push(<TodoItemWrapper id={id} />);
+  }
+  return <main className={inter.className}>{items}</main>;
 }
 
 export async function getServerSideProps() {
-  await loadData(20);
+  await loadData(size);
   return { props: {} };
 }

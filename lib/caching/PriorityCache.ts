@@ -1,9 +1,11 @@
+
 class PriorityCache {
   private cache: { [key: string]: string } = {};
   private queue: { key: string; priority: number }[] = [];
   private timers: { [key: string]: NodeJS.Timeout } = {};
 
   constructor(private capacity: number, private lifetime: number) {
+    console.info("creating priority queue")
   }
 
   add(key: string, value: string) {
@@ -67,6 +69,10 @@ class PriorityCache {
 
   findMissingKeys(keys: string[]): string[] {
     return keys.filter(key => !this.keyExists(key));
+  }
+
+  allKeys() {
+    return Object.keys(this.cache);
   }
 }
 

@@ -22,7 +22,7 @@ export default function PSRR() {
   const items: ReactNode[] = [];
   for (let i = 0; i < ids.length; i++) {
     const id = ids[i];
-    items.push(<TodoItemWrapper id={id} />);
+    items.push(<TodoItemWrapper key={id} id={id} />);
   }
   return <main className={inter.className}>{items}</main>;
 }

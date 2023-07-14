@@ -5,7 +5,7 @@ class PriorityCache {
   private timers: { [key: string]: NodeJS.Timeout } = {};
 
   constructor(private capacity: number, private lifetime: number) {
-    console.info("creating priority queue")
+
   }
 
   add(key: string, value: string) {

@@ -4,7 +4,7 @@ config:
     - duration: 60
       arrivalRate: 20
 scenarios:
-  - name: "Scenario 1"
+  - name: "Home page"
     flow:
       - get:
-          url: "/pssr"
+          url: "/"

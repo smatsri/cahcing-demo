@@ -3,6 +3,8 @@ import { loadData } from "@/lib/todos/data";
 import { ReactNode } from "react";
 import "../app/globals.css";
 import { Inter } from "next/font/google";
+import { CacheProvider } from "@emotion/react";
+import { cache } from "@/lib/todos/emotion";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -15,7 +17,7 @@ function createIds(size = 100) {
   return arr;
 }
 
-const size = 2;
+const size = 100;
 
 export default function PSRR() {
   const ids = createIds(size);
@@ -24,7 +26,11 @@ export default function PSRR() {
     const id = ids[i];
     items.push(<TodoItemWrapper key={id} id={id} />);
   }
-  return <main className={inter.className}>{items}</main>;
+  return (
+    <CacheProvider value={cache}>
+      <main className={inter.className}>{items}</main>
+    </CacheProvider>
+  );
 }
 
 export async function getServerSideProps() {

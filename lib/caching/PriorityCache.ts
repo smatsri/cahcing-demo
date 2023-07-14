@@ -1,8 +1,9 @@
 class PriorityCache {
   private cache: { [key: string]: string } = {};
   private queue: { key: string; priority: number }[] = [];
+  private timers: { [key: string]: NodeJS.Timeout } = {};
 
-  constructor(private capacity: number) { }
+  constructor(private capacity: number, private lifetime: number) { }
 
   add(key: string, value: string) {
     // If the cache is already at capacity, evict the lowest priority item.
@@ -16,8 +17,14 @@ class PriorityCache {
     } else {
       const index = this.queue.findIndex((item) => item.key === key);
       this.queue[index].priority++;
+      clearTimeout(this.timers[key]);  // Clear previous timer
     }
     this.cache[key] = value;
+
+    // Set a timeout to remove the item from the cache after the lifetime expires.
+    this.timers[key] = setTimeout(() => {
+      this.evictSpecificKey(key);
+    }, this.lifetime);
   }
 
   addMany(items: { key: string; value: string }[]) {
@@ -32,6 +39,20 @@ class PriorityCache {
       const lowestPriorityKey = this.queue[0].key;
       delete this.cache[lowestPriorityKey];
       this.queue.shift();
+      clearTimeout(this.timers[lowestPriorityKey]);  // Clear the timer
+      delete this.timers[lowestPriorityKey];  // Remove the timer
+    }
+  }
+
+  private evictSpecificKey(key: string) {
+    if (this.cache[key]) {
+      const index = this.queue.findIndex((item) => item.key === key);
+      if (index > -1) {
+        this.queue.splice(index, 1);
+      }
+      delete this.cache[key];
+      clearTimeout(this.timers[key]);  // Clear the timer
+      delete this.timers[key];  // Remove the timer
     }
   }
 
@@ -45,3 +66,13 @@ class PriorityCache {
 }
 
 export default PriorityCache
+
+// // Usage example
+// const priorityCache = new PriorityCache(2, 5000);  // 5 seconds lifetime
+// const key1 = 'k1';
+// const key2 = 'k2';
+
+// priorityCache.add(key1, 'Data for key1');
+// priorityCache.add(key2, 'Data for key2');
+
+// // ... rest of your code

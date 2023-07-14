@@ -2,7 +2,7 @@ import { Todo } from "./types"
 
 export const getTodo = async (id: number) => {
   const response = await fetch(`https://jsonplaceholder.typicode.com/todos/${id}`, {
-    next: { revalidate: 0 }
+    next: { revalidate: 1000 * 60 }
   })
   const todo: Todo = await response.json()
   return todo

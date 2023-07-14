@@ -7,6 +7,9 @@
     "jsx": "react",
   },
   "include": [
-    "server.ts"
+    "server.ts",
+    "**/*.ts", 
+    "**/*.tsx", 
+    ".next/types/**/*.ts"
   ]
 }

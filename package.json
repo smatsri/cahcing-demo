@@ -3,12 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "nodemon",
-    "build:server": "tsc --project tsconfig.server.json",
-    "build:next": "cross-env NEXT_BUILD=true node dist/server.js",
-    "build": "cross-env NODE_ENV=production yarn build:server && yarn copyfiles && yarn build:next",
-    "serve": "cross-env NODE_ENV=production node dist/server.js",
-    "copyfiles": "copyfiles -u 1 \"app/**/*.{html,css,scss,ttf,woff,woff2,eot,svg,jpg,png}\" dist/",
+    "dev": "next dev",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
@@ -35,6 +31,7 @@
     "@types/winston": "^2.4.4",
     "copyfiles": "^2.4.1",
     "nodemon": "^3.0.1",
-    "ts-node-dev": "^2.0.0"
+    "ts-node-dev": "^2.0.0",
+    "tsconfig-paths": "^4.2.0"
   }
 }

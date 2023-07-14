@@ -3,7 +3,8 @@ class PriorityCache {
   private queue: { key: string; priority: number }[] = [];
   private timers: { [key: string]: NodeJS.Timeout } = {};
 
-  constructor(private capacity: number, private lifetime: number) { }
+  constructor(private capacity: number, private lifetime: number) {
+  }
 
   add(key: string, value: string) {
     // If the cache is already at capacity, evict the lowest priority item.
@@ -31,6 +32,10 @@ class PriorityCache {
     for (const item of items) {
       this.add(item.key, item.value);
     }
+  }
+
+  getItem(key: string) {
+    return this.cache[key];
   }
 
   private evictLowestPriority() {
@@ -66,13 +71,3 @@ class PriorityCache {
 }
 
 export default PriorityCache
-
-// // Usage example
-// const priorityCache = new PriorityCache(2, 5000);  // 5 seconds lifetime
-// const key1 = 'k1';
-// const key2 = 'k2';
-
-// priorityCache.add(key1, 'Data for key1');
-// priorityCache.add(key2, 'Data for key2');
-
-// // ... rest of your code

@@ -1,21 +1,14 @@
 import { getTodoHtml } from "@/lib/todos/html";
 import TodoItem from "./TodoItem";
-import logger from "@/lib/utils/logger";
 
 type TodoItemWrapperProps = {
   id: number;
 };
 
-const TodoItemWrapper = async ({ id }: TodoItemWrapperProps) => {
+const TodoItemWrapper = ({ id }: TodoItemWrapperProps) => {
   if (typeof window === "undefined") {
     const html = getTodoHtml(id);
-    logger.log(`TodoItemWrapper`, html);
-    return (
-      <div
-        id="my-comp"
-        dangerouslySetInnerHTML={{ __html: html || "<div>123</div>" }}
-      ></div>
-    );
+    return <div id="my-comp" dangerouslySetInnerHTML={{ __html: html }}></div>;
   }
 
   return (

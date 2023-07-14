@@ -1,32 +1,36 @@
-import PriorityCache from "../caching/PriorityCache";
-import logger from "../utils/logger";
-import { getTodo } from "./api";
+import { getTodos } from "./api";
 import { cache } from "./cache";
 import { renderTodo } from "./render";
 
-const getTodos = async (size: number) => {
-  const promises = [];
-  for (let index = 0; index < size; index++) {
-    let promise = getTodo(index + 1);
-    promises.push(promise);
-  }
+(cache as any)._id = "todo_cache";
 
-  const result = await Promise.all(promises);
-  return result;
-};
+
+if (!(global as any).id) {
+  (global as any).id = Date.now();
+  console.log('id is not set');
+} else {
+  console.log('id is set');
+}
 
 export const loadData = async (size = 20) => {
+  console.log('all keys', cache.allKeys());
   if (!cache.keyExists("1")) {
-    logger.info('loading todos data from api')
+    console.info('loading todos data from api')
     const todos = await getTodos(size);
-    logger.info('rendering items')
+    console.info('rendering items')
     const htmlsPromises = todos.map(async (todo) => ({
       key: todo.id.toString(),
       value: await renderTodo(todo),
     }));
     const items = await Promise.all(htmlsPromises)
-    logger.info('added todos to cache')
+    console.info('added todos to cache')
     cache.addMany(items);
+    const a = cache.keyExists("1")
+    console.info('cache loaded: ' + a)
+    console.info((cache as any)._id)
+
+  } else {
+    console.info('data already loaded');
   }
 
 }

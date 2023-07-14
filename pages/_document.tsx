@@ -1,4 +1,5 @@
 import { extractCritical } from "@/lib/todos/emotion";
+import "../app/globals.css";
 
 import Document, {
   Html,

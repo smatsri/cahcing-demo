@@ -11,8 +11,5 @@ export const loadData = async (size = 20) => {
     }));
     const items = await Promise.all(htmlsPromises)
     cache.addMany(items);
-  } else {
-
   }
-
 }

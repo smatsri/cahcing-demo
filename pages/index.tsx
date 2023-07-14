@@ -1,7 +1,6 @@
 import TodoItemWrapper from "@/components/TodoItemWrapper";
 import { loadData } from "@/lib/todos/data";
 import { ReactNode } from "react";
-import "../app/globals.css";
 import { Inter } from "next/font/google";
 import { CacheProvider } from "@emotion/react";
 import { cache } from "@/lib/todos/emotion";
@@ -19,7 +18,7 @@ function createIds(size = 100) {
 
 const size = 100;
 
-export default function PSRR() {
+export default function Home() {
   const ids = createIds(size);
   const items: ReactNode[] = [];
   for (let i = 0; i < ids.length; i++) {

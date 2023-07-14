@@ -1,4 +1,4 @@
-import TodoItemWrapper from "@/app/components/TodoItemWrapper";
+import TodoItemWrapper from "@/components/TodoItemWrapper";
 import { loadData } from "@/lib/todos/data";
 import { ReactNode } from "react";
 import "../app/globals.css";
@@ -15,7 +15,7 @@ function createIds(size = 100) {
   return arr;
 }
 
-const size = 100;
+const size = 2;
 
 export default function PSRR() {
   const ids = createIds(size);

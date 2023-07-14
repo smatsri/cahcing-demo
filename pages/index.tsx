@@ -1,8 +1,10 @@
-import TodoItemWrapper from "@/app/components/TodoItemWrapper";
+import TodoItemWrapper from "@/components/TodoItemWrapper";
 import { loadData } from "@/lib/todos/data";
 import { ReactNode } from "react";
 import "../app/globals.css";
 import { Inter } from "next/font/google";
+import { CacheProvider } from "@emotion/react";
+import { cache } from "@/lib/todos/emotion";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,9 +24,13 @@ export default function PSRR() {
   const items: ReactNode[] = [];
   for (let i = 0; i < ids.length; i++) {
     const id = ids[i];
-    items.push(<TodoItemWrapper id={id} />);
+    items.push(<TodoItemWrapper key={id} id={id} />);
   }
-  return <main className={inter.className}>{items}</main>;
+  return (
+    <CacheProvider value={cache}>
+      <main className={inter.className}>{items}</main>
+    </CacheProvider>
+  );
 }
 
 export async function getServerSideProps() {

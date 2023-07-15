@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "load-test": "node ./scripts/load-test.js"
+    "load-test": "node ./scripts/load-test.js",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "dependencies": {
     "@emotion/css": "^11.11.2",
@@ -32,13 +34,22 @@
     "winston-daily-rotate-file": "^4.7.1"
   },
   "devDependencies": {
+    "@storybook/addon-essentials": "^7.0.27",
+    "@storybook/addon-interactions": "^7.0.27",
+    "@storybook/addon-links": "^7.0.27",
+    "@storybook/blocks": "^7.0.27",
+    "@storybook/nextjs": "^7.0.27",
+    "@storybook/react": "^7.0.27",
+    "@storybook/testing-library": "^0.0.14-next.2",
     "@types/collections": "^5.1.2",
     "@types/express": "^4.17.17",
     "@types/node": "^20.4.2",
     "@types/winston": "^2.4.4",
     "copyfiles": "^2.4.1",
+    "eslint-plugin-storybook": "^0.6.12",
     "k6": "^0.0.0",
     "nodemon": "^3.0.1",
+    "storybook": "^7.0.27",
     "ts-node-dev": "^2.0.0",
     "tsconfig-paths": "^4.2.0"
   }

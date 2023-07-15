@@ -18,8 +18,10 @@ export const renderTodo = async (todo: Todo) => {
   return html;
 };
 
+let loaded = false;
+
 export const loadData = async (length = 20, offset = 100) => {
-  if (!cache.keyExists("1")) {
+  if (!loaded) {
     const todos = await getTodos(length, offset);
     const htmlsPromises = todos.map(async (todo) => ({
       key: todo.id.toString(),
@@ -27,6 +29,7 @@ export const loadData = async (length = 20, offset = 100) => {
     }));
     const items = await Promise.all(htmlsPromises);
     cache.addMany(items);
+    loaded = true;
   }
 };
 

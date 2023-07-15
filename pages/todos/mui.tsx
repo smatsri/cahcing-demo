@@ -1,29 +1,22 @@
-import TodoItemWrapper from "@/components/TodoItemWrapper";
-import { loadData } from "@/lib/todos/data";
+import MuiTodoItemWrapper from "@/components/MuiTodoItemWrapper";
+import { loadData } from "@/lib/todos/mui";
 import { ReactNode } from "react";
 import { Inter } from "next/font/google";
 import { CacheProvider } from "@emotion/react";
 import { cache } from "@/lib/emotion";
-import "../app/globals.css";
+import "../../app/globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
-function createIds(size = 100) {
-  const arr = new Array<number>(size);
-  for (let i = 0; i < size; i++) {
-    arr[i] = i + 1;
-  }
+const offset = 100;
+const numItems = 100;
 
-  return arr;
-}
-
-const size = 100;
+const ids = createIds();
 
 export default function Home() {
-  const ids = createIds(size);
   const items: ReactNode[] = [];
   for (let i = 0; i < ids.length; i++) {
     const id = ids[i];
-    items.push(<TodoItemWrapper key={id} id={id} />);
+    items.push(<MuiTodoItemWrapper key={id} id={id} />);
   }
   return (
     <CacheProvider value={cache}>
@@ -33,6 +26,15 @@ export default function Home() {
 }
 
 export async function getServerSideProps() {
-  await loadData(size);
+  await loadData(numItems, offset);
   return { props: {} };
+}
+
+function createIds() {
+  const arr = new Array<number>(numItems);
+  for (let i = 0; i < numItems; i++) {
+    arr[i] = i + 1 + offset;
+  }
+
+  return arr;
 }

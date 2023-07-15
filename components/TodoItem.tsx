@@ -1,6 +1,7 @@
 import { Todo } from "@/lib/todos/types";
 import styled from "@emotion/styled";
-import { Button } from "@mui/material";
+//import { Button } from "@mui/material";
+//import Button from "@mui/material/Button";
 
 type TodoItemProps = {
   todo: Todo;
@@ -38,6 +39,7 @@ const Status = styled.div`
   font-size: 1.2em;
 `;
 
-const Btn = styled(Button)``;
+//const Btn = styled(Button)``;
+const Btn = styled.button``;
 
 export default TodoItem;

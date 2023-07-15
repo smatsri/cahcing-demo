@@ -8,10 +8,10 @@ export const getTodo = async (id: number) => {
   return todo
 }
 
-export const getTodos = async (size: number) => {
+export const getTodos = async (length: number, offset = 0) => {
   const promises = [];
-  for (let index = 0; index < size; index++) {
-    let promise = getTodo(index + 1);
+  for (let index = 0; index < length; index++) {
+    let promise = getTodo(index + offset + 1);
     promises.push(promise);
   }
 

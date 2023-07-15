@@ -5,6 +5,7 @@ import { Inter } from "next/font/google";
 import { CacheProvider } from "@emotion/react";
 import { cache } from "@/lib/emotion";
 import "../app/globals.css";
+import AppThemeProvider from "@/app/AppThemeProvider";
 const inter = Inter({ subsets: ["latin"] });
 
 function createIds(size = 100) {
@@ -27,7 +28,9 @@ export default function Home() {
   }
   return (
     <CacheProvider value={cache}>
-      <main className={inter.className}>{items}</main>
+      <AppThemeProvider>
+        <main className={inter.className}>{items}</main>
+      </AppThemeProvider>
     </CacheProvider>
   );
 }

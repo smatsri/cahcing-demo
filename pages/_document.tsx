@@ -1,5 +1,4 @@
-import { extractCritical } from "@/lib/todos/emotion";
-import "../app/globals.css";
+import { extractCritical } from "@/lib/emotion";
 
 import Document, {
   Html,

@@ -3,8 +3,8 @@ import { loadData } from "@/lib/todos/data";
 import { ReactNode } from "react";
 import { Inter } from "next/font/google";
 import { CacheProvider } from "@emotion/react";
-import { cache } from "@/lib/todos/emotion";
-
+import { cache } from "@/lib/emotion";
+import "../app/globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 function createIds(size = 100) {

@@ -1,7 +1,7 @@
 import { Todo } from "./types";
 import TodoItem from "../../components/TodoItem";
 import { CacheProvider } from "@emotion/react";
-import { cache, extractCritical } from "./emotion";
+import { cache, extractCritical } from "../emotion";
 
 export const renderTodo = async (todo: Todo) => {
   const ReactDOMServer = (await import("react-dom/server")).default;

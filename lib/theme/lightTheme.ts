@@ -55,33 +55,10 @@ export const lightThemeOptions: ThemeOptions = {
       fontWeight: 'normal',
       color: '#15142b',
     },
-    body16: {
-      color: '#15142b',
-      fontSize: 16,
-    },
-    body16Light: {
-      color: '#6f7070',
-      fontSize: 16,
-    },
-    body14: {
-      color: '#15142b',
-      fontSize: 14,
-    },
-    body14Light: {
-      color: '#6f7070',
-      fontSize: 14,
-    },
-    caption: {
-      color: '#15142b',
-      fontSize: 12,
-    },
-    button: {
-      color: '#333333',
-    },
+
+
   },
-  rounded: 20,
-  chatBlobBorderRadius: '0px 33px 33px 33px',
-  chatBlobBorderRadiusReverse: '33px 0px 33px 33px',
+
 
   components: {
     MuiPaginationItem: {
@@ -276,7 +253,6 @@ export const lightThemeOptions: ThemeOptions = {
     },
   },
   palette: {
-    isDarkTheme: false,
     primary: {
       main: '#28CBFF',
       dark: '#15142B',
@@ -287,8 +263,7 @@ export const lightThemeOptions: ThemeOptions = {
       main: '#F7C71E',
       dark: '#E69812',
       light: '#FCF8C8',
-      contrastText: '#FFFFFF',
-      black: '#444444',
+      contrastText: '#FFFFFF'
     },
     text: {
       primary: '#15142b',
@@ -296,41 +271,15 @@ export const lightThemeOptions: ThemeOptions = {
     },
     background: {
       default: '#FFFFFF',
-      secondary: '#F2F6F7',
-      primary: '#FFFFFF',
-      dark: '#15142b',
     },
-    default: {
-      main: '#F2F2F2',
-    },
+
     warning: {
       main: '#FFC727',
     },
     info: {
       main: '#E1F1FB',
     },
-    dividerLine: {
-      main: '#6F7070',
-    },
-    colors: {
-      softGreen: '#84c96d',
-      lightBlue: '#87b7ee',
-      black10: 'rgba(0, 0, 0, 0.1)',
-      mainBlue: '#07b9e0',
-      secVeryLightBlue: '#e4f0fa',
-      generalRed: '#f30000',
-      mainDeepBlue: '#070a3a',
-      secDarkBlue: '#191f2e',
-      secLightYellow: '#fbf8cd',
-      secLightBlue: '#82cefa',
-      generalNotWhite: '#f5f5f5',
-      white: '#fff',
-      generalDarkGray: '#979797',
-      textBlueDark: '#15142b',
-      blueDark: '#15142b',
-      mainYellow: '#efc94a',
-      textGray: '#6f7070',
-    },
+
   },
 };
 

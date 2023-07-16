@@ -10,6 +10,7 @@ import Dani from "./Dani/Dani";
 import CarPostFav from "./Fav/CarPostFav";
 import { Box } from "@mui/material";
 import { CarPostAd } from "./Price/types";
+import { useMemo } from "react";
 
 export type CarPostProps = {
   post?: CarPostAd;
@@ -54,6 +55,7 @@ const CarPost = ({
     insights = [],
     parallelImport = false,
   } = post;
+
   /*
   the order of the elements
   determines the order of the tabing
@@ -62,50 +64,52 @@ const CarPost = ({
   to position then 
  */
   return (
-    <Container onClick={onPostClick} hideBenefits={hideBenefits}>
-      <Box>
-        <FavContainer>
-          <CarPostFav isFav={isFav} title={title} onChange={onFavChange} />
-        </FavContainer>
-        {insights.length > 0 ? (
-          <DaniContainer>
-            <Dani insights={insights} onClick={onInsightsClick} />
-          </DaniContainer>
-        ) : null}
-        <BoxContainer>
-          <ImageSection images={images} priority={priority} alt={title} />
-          <MainContainer>
-            <HeaderSection
-              city={city}
-              title={title}
-              finishLevel={finishLevel}
-              specs={specs}
-              parallelImport={parallelImport}
-              onClick={onPostClick}
-            />
-            <PriceSection
-              price={price}
-              hasDiscount={hasDiscount}
-              onFundingClick={onFundingClick}
-              monthlyPayment={monthlyPayment}
-              variant="ad"
-            />
-            {!hideBenefits ? (
-              <BenefitsSection benefits={benefits} onOpen={onBenefitsClick} />
-            ) : null}
-            <ButtonsSection
-              carTitle={title}
-              detailsLink={link}
-              onContactClick={onContactClick}
-              onDetailsClick={onDetailsClick}
-            />
-          </MainContainer>
-        </BoxContainer>
-        <AlertContainer>
-          <Alerts alerts={alerts} />
-        </AlertContainer>
-      </Box>
-    </Container>
+    <>
+      <Container onClick={onPostClick} hideBenefits={hideBenefits}>
+        <Box>
+          <FavContainer>
+            <CarPostFav isFav={isFav} title={title} onChange={onFavChange} />
+          </FavContainer>
+          {insights.length > 0 ? (
+            <DaniContainer>
+              <Dani insights={insights} onClick={onInsightsClick} />
+            </DaniContainer>
+          ) : null}
+          <BoxContainer>
+            <ImageSection images={images} priority={priority} alt={title} />
+            <MainContainer>
+              <HeaderSection
+                city={city}
+                title={title}
+                finishLevel={finishLevel}
+                specs={specs}
+                parallelImport={parallelImport}
+                onClick={onPostClick}
+              />
+              <PriceSection
+                price={price}
+                hasDiscount={hasDiscount}
+                onFundingClick={onFundingClick}
+                monthlyPayment={monthlyPayment}
+                variant="ad"
+              />
+              {!hideBenefits ? (
+                <BenefitsSection benefits={benefits} onOpen={onBenefitsClick} />
+              ) : null}
+              <ButtonsSection
+                carTitle={title}
+                detailsLink={link}
+                onContactClick={onContactClick}
+                onDetailsClick={onDetailsClick}
+              />
+            </MainContainer>
+          </BoxContainer>
+          <AlertContainer>
+            <Alerts alerts={alerts} />
+          </AlertContainer>
+        </Box>
+      </Container>
+    </>
   );
 };
 

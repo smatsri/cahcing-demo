@@ -3,7 +3,7 @@ export interface CarPostAd {
   link: string;
   city: string;
   title: string;
-  finishLevel: string;
+  finishLevel?: string | null;
   specs: string[];
   price: number;
   hasDiscount: boolean;

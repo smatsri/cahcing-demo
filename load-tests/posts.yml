@@ -4,7 +4,7 @@ config:
     - duration: 60
       arrivalRate: 20
 scenarios:
-  - name: "simple"
+  - name: "mui"
     flow:
       - get:
-          url: "/"
+          url: "/posts"

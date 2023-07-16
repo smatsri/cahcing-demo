@@ -4,12 +4,7 @@ import { ReactNode } from "react";
 import { lightTheme } from "@/lib/theme/lightTheme";
 
 function AppThemeProvider({ children }: { children: ReactNode }) {
-  return (
-    <ThemeProvider theme={lightTheme}>
-      <CssBaseline />
-      {children}
-    </ThemeProvider>
-  );
+  return <ThemeProvider theme={lightTheme}>{children}</ThemeProvider>;
 }
 
 export default AppThemeProvider;

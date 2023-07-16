@@ -1,6 +1,7 @@
-import { Box, useMediaQuery } from "@mui/material";
+import { Box } from "@mui/material";
+import FavoritesAccessibleIcon from "@/images/icons/FavoritesAccessibleIcon.svg";
 import Fab from "@mui/material/Fab";
-import { NextIkImage } from "./NextIkImage";
+import Image from "next/image";
 import { useMemo } from "react";
 
 export type FavoriteButtonProps = any;
@@ -8,8 +9,8 @@ export type FavoriteButtonProps = any;
 export const FavoritesButton: React.FC<FavoriteButtonProps> = ({}) => {
   const Icon = useMemo(() => {
     return (
-      <NextIkImage
-        src="icons/FavoritesAccessibleIcon.svg"
+      <Image
+        src={FavoritesAccessibleIcon.src}
         alt="favorites icon"
         width={41}
         height={41}

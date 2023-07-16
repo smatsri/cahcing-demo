@@ -6,7 +6,7 @@ import Title from "./Title";
 type HeaderSectionProps = {
   city: string;
   title: string;
-  finishLevel: string;
+  finishLevel: string | undefined | null;
   specs: string[];
   parallelImport?: boolean;
   onClick: () => void;
@@ -25,7 +25,7 @@ const HeaderSection = ({
       <Location city={city} />
       <Title
         title={title}
-        finishLevel={finishLevel}
+        finishLevel={finishLevel || ""}
         fontSize="16px"
         finishLevelFontSize="13px"
         parallelImport={parallelImport}

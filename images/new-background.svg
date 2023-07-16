@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1439px" height="646px" viewBox="0 0 1439 646" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>59D02EEF-D8A5-4A2A-A3E5-827C63E66ACB</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="75.9576956%" id="linearGradient-1">
+            <stop stop-color="#0286A4" offset="0%"></stop>
+            <stop stop-color="#8FBEC9" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Header">
+            <g>
+                <g id="Background">
+                    <path d="M0,0 L1439,0 L1439,257.894633 C1343.94727,290.595829 1218.06706,271.826046 1061.35938,201.585284 C826.297859,96.2241404 902.840529,548.11646 492.623549,548.11646 C219.145562,548.11646 54.9377128,577.07764 0,635 L0,0 Z" id="Rectangle-2" fill="#71A8B4" fill-rule="nonzero" transform="translate(719.500000, 317.500000) scale(-1, 1) translate(-719.500000, -317.500000) "></path>
+                    <path d="M0,1 L1439,1 L1438.25052,222.985376 C1371.51348,279.644164 1245.63327,296.820869 1060.6099,274.51549 C783.074847,241.057422 902.840529,496.59748 492.623549,496.59748 C219.145562,496.59748 54.9377128,546.39832 0,646 L0,1 Z" id="Rectangle-2" fill="url(#linearGradient-1)" transform="translate(719.500000, 323.500000) scale(-1, 1) translate(-719.500000, -323.500000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

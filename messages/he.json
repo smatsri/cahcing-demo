@@ -1,0 +1,2053 @@
+{
+  "auto": "אוטומטית",
+  "manual": "ידנית",
+  "kg": "ק''ג",
+  "toAddCarToComparison": "להוספת רכב להשוואה",
+  "requestContact": "יצירת קשר",
+  "toAgencyAppointment": "לפגישה בסוכנות",
+  "dealDetails": "פרטי העיסקה",
+  "fundingOffer": "הצעת מימון",
+  "fundingOfferFrom": "הצעת מימון מ-",
+  "toFundingOffer": "להצעת מימון",
+  "agencyOffer": "הצעת הסוכנות",
+  "price": "מחיר",
+  "priceAfterDiscount": "מחיר לאחר הנחה",
+  "downPayment": "החזר חודשי",
+  "requiredFields": "השדות המסומנים ב* הינם שדות חובה",
+  "countdown": {
+    "days": "ימים",
+    "hours": "שעות",
+    "minutes": "דקות",
+    "seconds": "שניות"
+  },
+  "sales": {
+    "flash": {
+      "flashSaleTitleP1": "יםםם רכבים בהנחות",
+      "flashSaleTitleP2": "שאסור לפספס!",
+      "seeAllCars": "לצפייה ב-{carsAmount} הרכבים שבאתר",
+      "toDiscountCars": "לכל הרכבים בהנחה",
+      "flashSaleEndsIn": "המבצע מסתיים בעוד:"
+    }
+  },
+  "sort": {
+    "resultsCountPt1": "נמצאו",
+    "resultsCountPt2": "רכבים",
+    "sortBy": "מיון תוצאות לפי"
+  },
+  "dataTags": {
+    "carDescription": "{displayName} שנת {year} למכירה {kilometrage} קילומטר"
+  },
+  "common": {
+    "continue": "המשך",
+    "howItWorks": "איך זה עובד?",
+    "moreDetails": "פרטים נוספים"
+  },
+  "qaPage": {
+    "pageTitle": "CARWIZ | כל השאלות שמידע שחייבים לדעת לפני שקונים רכב יש שניה",
+    "pageDescription": "יש לכם שאלה? הכנו עבורכם מאגר של שאלות נפוצות, בו תוכלו למצוא את כל התשובות הנפוצות לגבי השימוש בממשק החיפוש מתקדם והידידותי של קארווייז. ",
+    "title": "שאלות ותשובות",
+    "searchYourQuestion": "מה השאלה שלך?",
+    "qaAccordion": {
+      "noResults": "לא מצאנו את הטקסט שחיפשת, כדאי לנסות משהו אחר"
+    }
+  },
+  "filtersPage": {
+    "pageTitle": "CARWIZ | CARWIZ מציאת רכב יד שניה בעמוד הסינון החדש של",
+    "pageDescription": "קארוויז - מציאת רכבי יד שניה בעמוד הסינון החכם שלנו. קארוויז היא הדרך הנוחה ביותר למציאת רכב בצורה מהירה ופשוטה, וקבלת מגוון הצעות מחיר לרכב באמצעות ממשק חדשני ומתקדם",
+    "title": "הסננים המומלצים של האלגוריתם",
+    "subtitle": "הנה כמה מהסננים המומלצים שימקדו אותך למצוא את הרכבים שהכי מתאימים לצרכיך"
+  },
+  "homePage": {
+    "pageTitle": "CARWIZ | רכישת רכב חכמה מיד שנייה",
+    "pageDescription": "מתלבטים איזה רכב כדאי לקנות? היכנסו לקארוויז וקבלו מגוון הצעות מחיר לרכב יד שנייה בליווי מומחה. אלפי רכבים מיד 2 החל מ-10,000 ₪ ",
+    "availableCars": {
+      "availableCarsTitle": "מצאנו לך",
+      "avaiableCarsSubtitle": "בהתאם לתקציב שהזנת",
+      "cars": "רכבים"
+    },
+    "actionButtons": {
+      "advancedFilter": "סינון מתקדם",
+      "showResults": "לצפייה בכל הרכבים"
+    },
+    "sections": {
+      "goToMakeModelPages": {
+        "title": "רוצה ללמוד מה הרכב הנכון ביותר עבורך?",
+        "description": "רכישת רכב היא אירוע חשוב ומשמעותי ולכן חשוב לנו לתת לך את כל הכלים, המידע והתובנות על מנת לבצע את ההחלטה המושכלת ביותר, זו הסיבה שהקמנו, לצד הכלים המתקדמים שמסייעים לך לתעדף ולבחור בין הרכבים השונים, גם מאגר מידע נרחב עם מידע ונתונים על היצרנים והדגמים השונים",
+        "button": "לצפייה במידע",
+        "error": "יש לבחור יצרן או יצרן ודגם"
+      },
+      "agencies": {
+        "logosTitle": "הסוכנויות",
+        "additionalAgencies": "לכל הסוכנויות"
+      },
+      "funding": {
+        "title": "סינון לפי החזר חודשי",
+        "description": "אנחנו לא רק עוזרים לך לחפש רכב, אנחנו כאן גם בשביל לסייע לך במימון. איך? פשוט מאוד! ממלאים את סכום המקדמה הרצוי ואת התשלום החודשי, ואנחנו נבדוק עבורך במהירות שיא אישור עקרוני למימון רכב",
+        "button": "לקבלת אישור עקרוני",
+        "maxDownPayment": "סכום המקדמה",
+        "maxMonthlyPayment": "תשלום חודשי",
+        "cars": "רכבים",
+        "availableCarsTitle": "מצאנו לך",
+        "avaiableCarsSubtitle": "בהתאם לתקציב שהזנת",
+        "fundingDescription": "עד \n <strong>{value}</strong> \n בחודש",
+        "fundingDescriptionRaw": "עד {value} שקל בחודש",
+        "inMonth": "בחודש",
+        "actionButton": "לצפייה ברכבים"
+      },
+      "categories": {
+        "title": "סינון לפי קטגוריות",
+        "showMoreLabel": "לכל הקטגוריות",
+        "showLessLabel": "צמצום קטגוריות"
+      },
+      "howItWorks": {
+        "howItWorksTitle0": "למה CARWIZ?",
+        "howItWorksDescription0": "כי אנחנו מאמינים שלכל אחד ואחת מאיתנו מגיעה חוויה פשוטה, אובייקטיבית, חינמית וחכמה ברכישת רכב יד 2, ולכן פיתחנו כלים מתקדמים וידידותיים שיעזרו לך לחפש, לקבל מידע, ולהשוות בין רכבים  במינימום מאמץ. ",
+        "howItWorksQuestion": "איך זה עובד?",
+        "howItWorksTitle1": "מחפשים",
+        "howItWorksDescription1": "באמצעות האלגוריתם החכם שפיתחנו, ניתן לחפש רכבים בפשטות וביעילות על בסיס העדפות אישיות וסינונים חכמים",
+        "howItWorksTitle2": "מתאמים",
+        "howItWorksDescription2": "מתאמים באתר פגישה בסוכנות עבור רכב שאוהבים",
+        "howItWorksTitle3": "מתניעים",
+        "howItWorksDescription3": "מצאת את הרכב והעסקה האופטימליים עבורך? איזה כיף! רוכשים את הרכב הנבחר בביטחון ובראש שקט"
+      },
+      "blog": {
+        "title": "מגזין",
+        "toAllArticles": "לכל המאמרים"
+      },
+      "qa": {
+        "title": "עומדים לשירותך לכל שאלה",
+        "toQa": "לשאלות ותשובות",
+        "toContactUs": "דברו איתנו"
+      },
+      "hero": {
+        "title": "את הרכב הבא שלכם תמצאו כאן!",
+        "content": "הגעת למקום הנכון. בעזרת האלגוריתם שלנו אנחנו ב-CARWIZ, זוכת פרס מוצר השנה 2022, נעזור לך למצוא אותו מתוך אלפי רכבים וממאות סוכנויות רכב מובילות. ",
+        "contentPt1": "חדש או משומש, בנזין או חשמלי, משפחתי או בעצם ג׳יפון?",
+        "contentPt2": "מגוון רחב של רכבים ממאות סוכנויות רכב מובילות מחכים לכם.",
+        "boldContent": "בקארוויז יש הכלללל!",
+        "logo": "הלוגו של קארוויז",
+        "electricTitlePt1": "רוצים להכיר את קולקציית הרכבים",
+        "electricTitlePt2": "החשמליים שלנו?",
+        "electricTitlePt3": "לחצו כאן"
+      },
+      "posts": {
+        "newPosts": "חדשים באתר",
+        "hotPosts": "חמים באתר"
+      },
+      "featuredModels": {
+        "title": "דגמים פופולריים",
+        "priceLabel": "מחירים",
+        "learnModel": "מידע על הדגם"
+      },
+      "makes": {
+        "title": "סינון לפי יצרן",
+        "showMoreLabel": "לכל היצרנים",
+        "showLessLabel": "צמצום יצרנים"
+      },
+      "reviews": {
+        "previous": "הקודם",
+        "next": "הבא"
+      },
+      "tradein": {
+        "title": "טרייד אין",
+        "description": "החלפת הרכב מעולם לא הייתה קלה יותר! מכניסים פרטים על הרכב הקיים, בוחרים רכבים מהמלאי שלנו ומקבלים הצעות מותאמות אישית מהסוכנויות השונות ישירות לנייד",
+        "button": "להחלפת רכב",
+        "plateNumber": "מספר רכב",
+        "alt": "טרייד אין אונליין"
+      },
+      "search": {
+        "makeLabel": "יצרן",
+        "availableCars1": "יש לנו",
+        "availableCars2": "שמתאימים בדיוק למה שחיפשת"
+      }
+    }
+  },
+  "aboutPage": {
+    "pageTitle": "CARWIZ | מי אנחנו - אודות קארוויז",
+    "title": "מי אנחנו",
+    "pageDescription": "נעים להכיר, אנחנו CARWIZ - פלטפורמה חדשנית לרכישת כלי רכב בצורה הכי יעילה ונוחה בישראל. רוצים לשמוע על האלגוריתם הייחודי שלנו? היכנסו עכשיו לכל הפרטים.",
+    "alt": "מי אנחנו"
+  },
+  "contentPage": {
+    "pageTitle": "CARWIZ | מגוון כתבות על מה צריך לדעת לפני שקונים רכב יד שנייה",
+    "title": "מגזין הרכב של CARWIZ המדריך לרכישת רכב",
+    "pageDescription": "מתלבטים ולא יודעים איזה רכב לקנות? במגזין של קארוויז תוכלו למצוא מגוון כתבות שיוכלו לענות לכם על דברים שחייבים שצריך לדעת לפני שקונים רכב משומש. ",
+    "fullArticle": {
+      "moreArticles": "מאמרים נוספים"
+    },
+    "articlePreviewList": {
+      "moreArticles": "כתבות נוספות שיכולות לעניין אותך",
+      "articlesFilter": {
+        "allArticles": "הכל",
+        "searchArticle": "חפש כתבה",
+        "categories": "קטגוריות "
+      }
+    }
+  },
+  "fundingPage": {
+    "pageTitle": "CARWIZ | מימון לרכישת רכב",
+    "title": "מימון אונליין",
+    "pageDescription": "רוצים לקבל אישור עקרוני למימון לרכישת רכב? מלאו את פרטיכם וקבלו תוך זמן קצר אישור עקרוני לרכישת רכב יד שניה",
+    "step1Title": "מזינים",
+    "step1Content": "מזינים מספר פרטים כדי לקבל אישור עקרוני למימון בכמה שניות",
+    "step2Title": "מתאמים",
+    "step2Content": "מתאמים באתר פגישה בסוכנות עבור רכב שאוהבים",
+    "step3Title": "מתניעים",
+    "step3Content": "בוחרים עם נציגי הסוכנות את תנאי המימון האופטימליים בעבור הרכב הנבחר, ורוכשים בביטחון ובראש שקט"
+  },
+  "contactUsPage": {
+    "pageTitle": "CARWIZ | יצירת קשר",
+    "pageDescription": "רוצים לדבר איתנו? נשמח לשמוע ממכם! השאירו פרטים ונחזור אליכם בהקדם.",
+    "title": "דברו איתנו",
+    "subtitle": "רוצה לדבר איתנו? נשמח לשמוע ממך! \nפשוט ממלאים את הפרטים ואנחנו נדאג לחזור אליך בהקדם",
+    "name": "שם מלא",
+    "email": "כתובת מייל",
+    "phone": "מספר טלפון",
+    "contact": "חזרו אליי",
+    "submitSuccess": "ההודעה נשלחה בהצלחה! ניצור איתך קשר בהקדם האפשרי",
+    "submitError": "מצטערים, קרתה שגיאה בעת שליחת ההודעה, ניתן לנסות שוב מאוחר יותר",
+    "content": "תוכן הפנייה"
+  },
+  "createOffersLoading": {
+    "title": "רק רגע... הלכנו לעבוד בשבילך",
+    "firstStep": "שומרים במועדפים...",
+    "secondStep": "אוספים עבורך נתונים נוספים על הרכבים...",
+    "thirdStep": "האלגוריתם מנתח את הנתונים ומכין השוואה חכמה...",
+    "completeTitle": "זהו... הכל מוכן!",
+    "completeBody": "מיד נעביר אותך להשוואה "
+  },
+  "regulationsPage": {
+    "pageTitle": "CARWIZ | תקנון אתר קארוויז",
+    "pageDescription": "תקנון השימוש באתר קארוויז  הכולל את תנאי השימוש, מדיניות פרטיות , ויתור והגבלת אחריות וקניין רוחני.",
+    "title": "תקנון אתר קארוויז / CARWIZ"
+  },
+  "footer": {
+    "fullText": "כל הזכויות שמורות למימון ישיר מקבוצת ישיר (2006) בע\"מ, מספר רשיון 54414 (\"החברה\"), המממנת ובעלת אתר \"קארוויז\", תפעולו ואספקת השירותים דרכו. החברה מספקת את האתר כפלטפורמה לפרסום כלי רכב ואינה נושאת באחריות בכל הקשור לכלי הרכב. אי עמידה בפירעון הלוואה או בהחזר האשראי עלולה לגרור חיוב בריבית פיגורים והליכי הוצאה לפועל. קבלת הלוואה כפופה למדיניות החברה ונהליה.",
+    "rightsReserved": "© כל הזכויות שמורות למימון ישיר מקבוצת ישיר (2006) בע''מ,",
+    "legalDisclaimerLine1": "מספר רשיון 54414 (\"החברה\"), המממנת ובעלת אתר \"קארוויז\", תפעולו ואספקת השירותים דרכו.",
+    "legalDisclaimerLine2": "החברה מספקת את האתר כפלטפורמה לפרסום כלי רכב ואינה נושאת באחריות בכל הקשור לכלי הרכב.",
+    "legalDisclaimerLine3": "אי עמידה בפירעון ההלוואה או בהחזר האשראי עלולה לגרור חיוב בריבית פיגורים והליכי הוצאה לפועל.",
+    "legalDisclaimerLine4": "קבלת ההלוואה כפופה למדיניות החברה ונהליה.",
+    "aboutUsFooter": "אנחנו ב-CARWIZ נעזור לך להתחדש בקלות ובנוחות ברכב יד שנייה בהתאמה אישית מתוך אלפי רכבים וממאות סוכנויות רכב מובילות באמצעות ממשק חדשני וידידותי שפיתחנו, ובעזרת האלגוריתם החכם והמהפכני שלנו.",
+    "imageAlt": "הלוגו של אתר קארוויז - העוזר החכם שלך בקניית רכב",
+    "goUp": "למעלה",
+    "facebookButton": "מעבר לדף הפייסבוק קארוויז",
+    "whatIsCarwiz": "מי אנחנו",
+    "contactUs": "דברו איתנו",
+    "regulations": "תקנון",
+    "campaignRegulation": "תקנון מבצע",
+    "search": "חיפוש רכב",
+    "qaPage": "שאלות ותשובות",
+    "accessibility": "נגישות",
+    "filters": "סננים מומלצים",
+    "funding": "בדיקת מימון",
+    "tradeIn": "טרייד אין",
+    "learn": "מחקר",
+    "content": "מגזין",
+    "agencyBranchIndex": "אינדקס סוכנויות",
+    "agenciesSection": "כניסת סוכנויות",
+    "privacyPolicy": "מדיניות פרטיות",
+    "informationSecurity": "אבטחת מידע"
+  },
+  "agencyBranchesIndexPage": {
+    "pageTitle": "CARWIZ | מאות סוכנויות רכב בפריסה ארצית ",
+    "pageDescription": "להתחדש בקלות ובנוחות ברכב יד שנייה בהתאמה אישית מתוך אלפי רכבים וממאות סוכנויות רכב מובילות באמצעות ממשק חדשני וידידותי.",
+    "title": "אינדקס סוכנויות",
+    "branchCardPreviewList": {
+      "areaLabel": "מיקום",
+      "searchLabel": "חיפוש"
+    }
+  },
+  "interactionAppointmentWithBody": {
+    "hand": "יד",
+    "backToCarBoard": "חזרה ללוח רכבים"
+  },
+  "header": {
+    "logoLinkTitle": "עבור לדף הבית של CARWIZ",
+    "logoImgAlt": "הלוגו של קארוויז - מעבר לדף הבית",
+    "signup": "הרשמה",
+    "personalArea": "אזור אישי",
+    "about": "מי אנחנו",
+    "carsComparison": "השוואת רכבים",
+    "search": "חיפוש רכב",
+    "learn": "מחקר",
+    "logout": "התנתקות",
+    "home": "דף בית",
+    "postsCartAlt": "לפתיחת הבחירות שלי",
+    "contrastToggleAlt": "להפעלת ניגודיות",
+    "avatarAlt": "למעבר לאזור האישי",
+    "content": "מגזין",
+    "agenciesSection": "כניסת סוכנויות",
+    "agencyBranchIndex": "אינדקס סוכנויות",
+    "qa": "שאלות ותשובות",
+    "settings": "הגדרות",
+    "personalOffers": "הרכבים שבחרתי",
+    "personalMyFavorites": "רכבים שאהבתי",
+    "personalMyInteractions": "הפניות שלי",
+    "personalTradeinOffers": "הצעות החלפת רכב",
+    "personalMyCars": "טרייד אין",
+    "personalRecommendations": "ההמלצות שלי",
+    "tradeIn": "טרייד אין",
+    "notifications": "תזכורות",
+    "funding": "בדיקת מימון",
+    "anonymousUser": "פלוני אלמוני",
+    "mainMenu": "תפריט ראשי",
+    "acessibilityMode": "ניגודיות",
+    "more": "עוד",
+    "byline": "מוצר השנה 2022 - בחירת הצרכנים"
+  },
+  "drawerMenu": {
+    "logout": "התנתק/י",
+    "noUserYet": "עוד אין לך משתמש?",
+    "enrollNow": "הירשמ/י עכשיו",
+    "hellowGuest": "שלום אורח/ת",
+    "connect": "התחבר/י",
+    "goodToSeeYou": "טוב לראות אותך",
+    "heyUser": "היי {name}"
+  },
+  "notFoundPage": {
+    "carwizLogoImageAlt": "לוגו קארוויז",
+    "notFoundImageAlt": "דף לא נמצא",
+    "title": "נראה שהדף שהגעת אליו אינו קיים",
+    "subtitle": "אבל לא נורא, אנחנו כאן איתך כל הדרך אל הרכב הבא שלך :)",
+    "findCar": "לצפייה ברכבים",
+    "questionsAndAnswers": "לשאלות ותשובות"
+  },
+  "tradeinPage": {
+    "pageTitle": "CARWIZ | קבל הצעות טרייד אין בעזרת האלגוריתם החכם שלנו",
+    "pageDescription": "החלפת הרכב מעולם לא הייתה קלה יותר! מכניסים פרטים על הרכב הקיים, בוחרים רכבים מהמלאי שלנו ומקבלים הצעות מותאמות אישית מהסוכנויות השונות ישירות לנייד",
+    "detailsPage": {
+      "pageTitle": "CARWIZ | עסקאות טריידאין באתר ",
+      "pageDescription": "קבלו הצעות לעסקאות טריידאין ובחרו עם איזו עסקה הכי נוח לכם להתקדם לרכב החדש שלכם."
+    },
+    "referencedCar": "הרכב בו התעניינת",
+    "loginDialogTitle": "לאן לשלוח לך הצעות?",
+    "loginDialogSubtitle": "על מנת שפרטי הרכב שהזנת יישמרו, וכדי שנוכל להציג לך רכבים חלופיים אנחנו צריכים את מספר הטלפון שלך",
+    "howItWorks": "איך זה עובד?",
+    "step1Title": "מזינים",
+    "step1Content": "מזינים מספר פרטים על הרכב הנוכחי",
+    "step2Title": "מבקשים",
+    "step2Content": "מבקשים הצעות על הרכבים שאוהבים, ומקבלים תוך כמה שעות הצעות טרייד אין אישיות לאימייל או לוואטסאפ",
+    "step3Title": "מתניעים",
+    "step3Content": "מתאמים באתר פגישה בסוכנות ומבצעים את עסקת הטרייד אין",
+    "newHowItWorks": {
+      "title": "קבלו הצעות טרייד אין",
+      "subtitle": "במספר צעדים פשוטים",
+      "step1": "מכניסים מספר רכב",
+      "step2": "מוסיפים מידע ותמונות",
+      "step3": "בוחרים רכבים ומקבלים הצעות",
+      "step4": "מתחדשים ברכב הבא שלכם!",
+      "next": "נשמע טוב, בואו נתחיל"
+    }
+  },
+  "shared": {
+    "homePage": "דף הבית",
+    "appLogo": {
+      "alt": "הלוגו של אתר קארוויז"
+    },
+    "benchmark": {
+      "minValue": "הזול בהיצע",
+      "maxValue": "היקר בהיצע",
+      "postValue": "מחיר הרכב"
+    },
+    "fundingInfo": {
+      "fundingTitle": "הצעת מימון מותאמת לרכב זה",
+      "content": [
+        "הצעת המימון חושבה על סמך המחשבונים בתנאי השימוש",
+        "הנתונים המוצגים הם לצורך הדגמה בלבד ואינם מחייבים את מימון ישיר או את קארוויז, יחד וכל אחד לחוד",
+        "קבלת ההלוואה כפופה למדיניות מימון ישיר ונהליה",
+        "אי עמידה בפירעון ההלוואה או בהחזר האשראי עלולה לגרור חיוב בריבית פיגורים והליכי הוצאה לפועל. הגילוי בהתאם לחוק. מספר רישיון 54414"
+      ],
+      "monthlyPayment": "מחיר לחודש",
+      "downPayment": "מקדמה",
+      "endPayment": "יתרה בסוף התקופה",
+      "cancelMessage": "סגירה",
+      "months": "חודשים",
+      "monthlyPaymentTitle": "החזר חודשי צפוי",
+      "fundingEligibilityLink": "אישור מימון אונליין",
+      "maxDownPayment": "מקדמה",
+      "yourCar": "הרכב שלך + "
+    },
+    "carSubtitle": {
+      "yearHandLocation": "{year}  |  יד {hand} | ",
+      "yearHandKm": "{year}  |  יד {hand} | {km} ק״מ",
+      "yearHandCarPrice": "{year}  |  יד {hand} | {carPrice}"
+    }
+  },
+  "mimunYashirPage": {
+    "pageTitle": "הכירו את קארוויז",
+    "pageDescription": "הכירו את קארוויז - העוזר החכם שלך בקניית רכב",
+    "title": "הכירו את קארוויז"
+  },
+  "agencyRegulationsPage": {
+    "pageTitle": "CARWIZ | תקנון מפרסמים",
+    "pageDescription": "תקנון מפרסמים של אתר CARWIZ"
+  },
+  "accessibilityPage": {
+    "pageTitle": "CARWIZ | הצהרת נגישות",
+    "title": "הצהרת נגישות",
+    "pageDescription": "כחלק מתפיסת השירות שלנו באתר אנו שמים דגש על נגישות אתר CARWIZ לנוחיות השימוש באתר."
+  },
+  "ErrorResultCard": {
+    "title": "משהו השתבש",
+    "tipsTitle": "הנה כמה פעולות שיעזרו לך לפתור את התקלה:"
+  },
+  "trustToolbar": {
+    "title": "100% ביטחון ברכישה בקארוויז"
+  },
+  "mimunToolbar": {
+    "title": "עד 100% מימון לרכב הבא שלך",
+    "mainText": " רוצה לבדוק את זכאותך למימון עד 100% לרכישת הרכב הבא שלך?",
+    "checkText": "בדיקה מהירה אונליין",
+    "checkMimun": "בדיקה מהירה אונליין",
+    "secondaryCheckText": "לבדיקת אישור עקרוני אונליין למימון של עד 100% מעלות הרכב יש ללחוץ על כפתור ״בדיקה מהירה אונליין״  והתשובה תתקבל תוך מספר שניות",
+    "callWithAgent": "רוצה לדבר עם נציג"
+  },
+  "corePrincipals": {
+    "title": "האני מאמין שלנו",
+    "principalTitle1": "אובייקטיביות",
+    "principalDescription1": "הבחירה עם איזה רכבים וסוכנויות להתקדם בידיים שלך, אין סוכנות שאנחנו מקדמים בקבלת תוצאות החיפוש. אכפת לנו אך ורק לתת מענה מקצועי, מסור ומדויק שיענה על כל הצרכים שלך",
+    "principalTitle2": "אמינות",
+    "principalDescription2": "הסוכנויות שאנחנו מציגים לך פועלים בכפיפות ל’תו סחר’ (סוחר רכב מורשה) בפיקוח משרד התחבורה והבטיחות בדרכים, ונתוני הרכבים נבדקים מול מאגרי מידע רשמיים",
+    "principalTitle3": "מקצועיות",
+    "principalDescription3": "יש לנו את המומחיות, הניסיון והידע למצוא את הרכב המתאים לדרישות שלך, אנחנו אוספים ומנתחים כל פיסת מידע על רכבים ועל שוק הרכב, כך שהדרך שלך לרכישת רכב תהיה פשוטה, נוחה ומהירה ככל האפשר"
+  },
+  "agencyBranchPage": {
+    "contact": "יצירת קשר",
+    "setAppointment": "לפגישה בסוכנות",
+    "pageTitle": "CARWIZ | רכבי יד שניה בסוכנות {agency} {area}",
+    "pageDescription": "צפו במגוון רכבי יד שניה המוצעים למכירה בסוכנות {agency} {area} וקבלו הצעת מחיר והצעת מימון משתלמת",
+    "backToIndexPage": "בחזרה לכל הסוכנויות"
+  },
+  "personalArea": {
+    "pageTitle": "CARWIZ | האיזור האישי שלך",
+    "pageDescription": "באיזור האישי ניתן לשמור את הרכבים המועדפים עליך, לקבל המלצות בהתאם לבחירות שלך והצעות שיכולות לשדרג אותך.",
+    "title": "אזור אישי",
+    "licenseCost": "עלות אגרת הרישוי",
+    "licenseTimeLeft": "טסט הבא",
+    "months": "חודשים",
+    "toWatchCars": "לצפייה ברכבים",
+    "toWatchCars2": "לחיפוש רכבים",
+    "tabs": {
+      "myInteractions": "הפניות שלי",
+      "myCars": "טרייד אין",
+      "myRecommendations": "ההמלצות שלי",
+      "myFavorites": "רכבים שאהבתי",
+      "personalSettings": "הגדרות",
+      "myPersonalTradeinOffers": "הצעות החלפת רכב",
+      "notifications": "תזכורות"
+    },
+    "personalRecommendations": "המלצות מותאמות אישית",
+    "insights": {
+      "title": "טיפים של דני",
+      "back": "חזרה לתפריט",
+      "categorySelectionTitle": "היי {name}, האלגוריתם החכם שלנו אסף עבורך פרטים נוספים על הרכבים שבחרת – כדאי לצפות בהם! באפשרותך גם לבחור אילו נושאים מעניינים אותך והוא יבצע השוואות לפיהם בין הרכבים השונים ",
+      "contactAll": "תחזרו אלי לגביהם",
+      "insightChatTitle": "דני דאטה"
+    },
+    "myInteractions": {
+      "pageTitle": "CARWIZ | האיזור האישי שלך | הפניות שלי",
+      "title": "הפניות שלי",
+      "createdAt": "יצרת קשר לאחרונה ב-{date}, {time}",
+      "futureAppointment": "קבעת פגישה ל-{date}, {time}",
+      "pastAppointment": "היית בפגישה ב-{date}, {time}",
+      "noAppointment": "לא תואמה פגישה",
+      "moreInfo": "מידע נוסף",
+      "editAppointment": "עדכון מועד",
+      "newAppointment": "פגישה חדשה",
+      "makeAppointment": "לפגישה בסוכנות",
+      "appointmentDate": "תאריך פגישה"
+    },
+    "myInteractionsDetails": {
+      "pageTitle": "CARWIZ | האיזור האישי שלך | הפניות שלך",
+      "title": "הפניות שלי ל{agencyBranchName}",
+      "appointmentDetails": "פרטי הפגישה",
+      "phone": "טלפון",
+      "contact": "יצירת קשר",
+      "cancelAppointment": "ביטול פגישה",
+      "interests": "רכבים שהתעניית בהם בסוכנות"
+    },
+    "myRecommendations": {
+      "pageTitle": "CARWIZ | האיזור האישי שלך | המלצות מותאמות אישית",
+      "title": "המלצות מותאמות אישית"
+    },
+    "myFavorites": {
+      "pageTitle": "CARWIZ | האיזור האישי שלך | רכבים שאהבתי",
+      "title": "רכבים שאהבתי",
+      "header": "מועדפים"
+    },
+    "myCars": {
+      "pageTitle": "CARWIZ | האיזור האישי שלך | הרכבים שלך",
+      "title": "הרכבים שלי",
+      "subtitle": "בחר/י רכב מהרשימה לפניך בכדי לצפות בהצעות",
+      "add": "רכב נוסף",
+      "tradeInOffers": {
+        "title": "הצעות עבור ה{customerCarTitle} שלך",
+        "getMoreOffers": "הצעות נוספות",
+        "getNewOffersTitle": "על איזה רכב נחפש  לך הצעת טרייד-אין?"
+      },
+      "rejection": {
+        "title": "שנוותר על הרכב?",
+        "content": "במידה וברצונך לוותר על רכב זה, נשמח לדעת את הסיבה על מנת שההצעות הבאות יתאימו לך ככל הניתן.",
+        "ok": "המשך",
+        "cancel": "ביטול",
+        "options": {
+          "price": "הרכב שלי שווה יותר",
+          "high_price": "זה יקר לי",
+          "not_relevant": "כבר לא רלוונטי",
+          "other": "אחר"
+        }
+      },
+      "altRejection": {
+        "title": "שנוותר על ההצעה?",
+        "content": "עדיין לא קיבלת הצעה מהסוכנות. אם בכל זאת תרצי/ה לוותר נשמח לדעת למה.",
+        "ok": "מחק הצעה",
+        "cancel": "חזרה",
+        "options": {
+          "accident": "טעות שלי",
+          "too_long": "יותר מדי זמן",
+          "not_relevant": "כבר לא רלוונטי",
+          "other": "אחר"
+        }
+      }
+    },
+    "VewMyCar": {
+      "pageTitle": "CARWIZ | האיזור האישי שלך | { title }",
+      "loading": "טוען..."
+    },
+    "recommendations": {
+      "noRecommendationsTitle": "אין לנו כרגע המלצות עבורך",
+      "noRecommendationsBody": "באפשרותך לבחור רכבים בעמוד חיפוש הרכב ולהתקדם, על מנת שנוכל ללמוד את ההעדפות שלך ולשלוח לך המלצות מותאמות אישית :)",
+      "recommendationChatContent": "1. לפי הרכבים שצפית בהם והרכבים שבחרת, האלגוריתם למד את ההעדפות שלך ובהתבסס עליהן ריכז עבורך המלצות מותאמות אישית ",
+      "recommendationsLoading": "האלגוריתם מחפש לך רכבים שמתאימים לך...",
+      "areYouSureTitle": "שנוותר על הרכב?",
+      "areYouSureSubtitle": "במידה וברצונך לוותר על רכב זה, נשמח לדעת את הסיבה על מנת שהאלגוריתם ידייק את ההמלצות הבאות בהתאם להעדפות שלך",
+      "finish": "מחיקה",
+      "cancel": "ביטול",
+      "recommendationReasons": {
+        "title": "למה הרכב מומלץ?",
+        "budgetLowerThanMin": "מחיר נמוך",
+        "budgetLowerThanAvg": "מחיר נמוך מהממוצע",
+        "budgetInsideRange": "מחיר דומה",
+        "kmLowerThanMin": "ק''מ נמוך",
+        "kmLowerThanAvg": "ק''מ נמוך מהממוצע",
+        "kmInsideRange": "ק''מ דומה",
+        "yearNewer": "חדש יותר",
+        "yearOneOf": "אותה שנה",
+        "yearExact": "אותה שנה",
+        "yearInsideRange": "אותה שנה",
+        "categoryExact": "אותה קטגוריה",
+        "categoryOneOf": "קטגוריה מתאימה",
+        "colorOneOf": "צבע מתאים",
+        "colorExact": "הצבע שחיפשת"
+      },
+      "reshuffleDialog": {
+        "title": "יופי! האלגוריתם לומד את ההעדפות שלך",
+        "content": "כמה שניות ונמצא לך רכבים מתאימים יותר..."
+      }
+    },
+    "notifications": {
+      "submitButtonText": "עדכון פרטים",
+      "successText": "עודכן בהצלחה",
+      "cancel": "ביטול",
+      "dontGetAnyMessages": "אני לא רוצה לקבל שום הודעות",
+      "title": "דרך איזה ערוצים נפנה אליך?"
+    },
+    "offers": {
+      "noOffersTitle": "אין הצעות כרגע",
+      "noOffersBody": "כדי לקבל הצעות צריך לבחור רכבים שאוהבים :)",
+      "ok": "אישור",
+      "scheduleMeeting": "לפגישה בסוכנות",
+      "contactAgain": "דברו איתי שוב",
+      "titleMeetingNotScheduled": "כבר ביקשת לשוחח עם סוכנות זו בתאריך {date}, אנו ממליצים לתאם פגישה",
+      "title": "אין לך זמן לקבוע פגישה בסוכנות?",
+      "subtitle": "נשמח להעביר את פרטייך לסוכנות על מנת שייצרו איתך קשר לתאום",
+      "accept": "תחזרו אליי",
+      "close": "לא תודה",
+      "multipleOffersDialog": {
+        "title": "פרטיך הועברו ליצירת קשר בהצלחה!",
+        "agencyDetails": "לפרטים על הסוכנות",
+        "ok": "מעולה, תודה",
+        "firstAgency": "הפרטים הועברו ל{agencyName} עבור אפשרות {optionNum}",
+        "firstAgencyPlural": "הפרטים הועברו ל{agencyName} עבור אפשרויות {options}",
+        "middleAgencies": "ל{agency} עבור אפשרות {optionNum}",
+        "middleAgenciesPlural": "ל{agency} עבור אפשרויות {options}",
+        "lastAgency": "ול{agency} עבור אפשרות {optionNum}",
+        "lastAgencyPlural": "ול{agency} עבור אפשרויות {options}"
+      }
+    },
+    "warranty": {
+      "title": "כתב אחריות",
+      "ok": "אישור"
+    },
+    "tradeinOffersList": {
+      "removeRequest": "הסרת בקשה",
+      "yourOffers": "ההצעות שלך",
+      "noOffersTitle": "אין הצעות כרגע",
+      "noOffersBody": "כדי לקבל הצעות צריך לבחור רכבים שאוהבים :)",
+      "pending": "ממתין להצעה אישית",
+      "withYourCar": "+ הרכב שלך",
+      "noTradeinCaption": "טרייד אין מתבצע במקום",
+      "fundingMonths": "לחודש",
+      "or": "או",
+      "popoverText": "העברנו את בקשתך לסוכנות, תוך כמה שעות תחזור הצעת החלפה מותאמת לרכב שלך. נעדכן אותך בוואטסאפ כשההצעה תהיה מוכנה",
+      "car_change_by_agency": "תוקף ההצעה פג",
+      "car_delete_by_agency": "תוקף ההצעה פג",
+      "car_change_by_customer": "תוקף ההצעה פג",
+      "createdAt": "פניה נשלחה ב - {day}.{month}.{year}",
+      "agencyCarSubtitle": "{year}  |  יד {hand} | ",
+      "funding": {
+        "carPrice": "מחיר הרכב",
+        "agencyPriceOffer": "זיכוי על הרכב שלך",
+        "totalNewPrice": "סה״כ מחיר לאחר הזיכוי"
+      }
+    },
+    "teaserCards": {
+      "tradein": {
+        "title": "טרייד אין אונליין",
+        "subtitle": "רוצים להשתדרג,להתחדש או סתם להחליף את הרכב שלכם? העלו לכאן את הפרטים שלו ונתחיל.",
+        "placeholder": "מספר הרכב שלך",
+        "button": "החלפת רכב",
+        "alt": "תמונה של החלפת רכב"
+      },
+      "funding": {
+        "title": "אישור מימון לרכב אונליין",
+        "description": "אנחנו לא רק עוזרים לך לחפש רכב, אנחנו כאן גם בשביל לסייע לך במימון. מזינים מספר תעודת זהות ואנחנו נבדוק עבורך במהירות שיא אישור עקרוני למימון רכב",
+        "id": "תעודת זהות",
+        "checkFunding": "בדיקת אפשרויות מימון"
+      }
+    },
+    "computestCoupon": {
+      "couponTitle": "לקבלת קופון הנחה בשווי ₪100 למימוש בבדיקה",
+      "clickHere": "לחץ כאן",
+      "couponSent": "נשלח למייל",
+      "checkCostTitle": "בדיקה בקומפיוטסט",
+      "checkLabel": "בדיקה לפני קניה"
+    },
+    "backToOffersNavbar": {
+      "backToTradein": "חזרה להצעות החלפת רכב",
+      "backToRecommendations": "חזרה להמלצות שלי"
+    },
+    "settings": {
+      "personalSettings": "פרטים אישיים",
+      "name": "שם מלא",
+      "phone": "טלפון נייד",
+      "email": "מייל",
+      "emailAddress": "כתובת מייל",
+      "whatsapp": "וואטסאפ",
+      "whatsappRecommendations": "המלצות וואטסאפ",
+      "submitButtonText": "עדכון פרטים",
+      "cancel": "ביטול",
+      "avaterSelectionTitle": "איזה אייקון הכי מדבר אליך?"
+    },
+    "additionalFiles": {
+      "title": "מסמכים נוספים",
+      "warrantyFile": "כתב אחריות",
+      "checkFile": "טופס בדיקה",
+      "checkTitle": "בדיקת רכב"
+    },
+    "agencyInteractions": {
+      "personalAreaLink": "לצפייה ועריכה של הפגישות שלי",
+      "agencyWillContactSoon": "נדאג שיצרו איתך קשר בהקדם",
+      "agencyWillContactTomorrow": "ניצור עמך קשר בשעות הפעילות",
+      "editAppointment": " עדכון מועד הפגישה",
+      "cancelAppointmet": "ביטול הפגישה",
+      "alertTitle": "ביטול פגישה",
+      "alertCancel": "לא",
+      "alertOk": "כן",
+      "alertContent": "האם ברצונך לבטל את הפגישה שקבעת בסוכנות {agencyName} בתאריך {date} בשעה {time}?",
+      "agentWillwait": "בסוכנות {agencyName}",
+      "alreadyAskedToContact": "ביקשת שיצרו איתך קשר לאחרונה בתאריך {date} בשעה {time}",
+      "appointmentCanceled": "הפגישה שנקבעה בסוכנות {agencyName} לתאריך {date} בשעה {time} בוטלה לבקשתך",
+      "interactionRequestReceived": {
+        "APPOINTMENT": "קבענו לך פגישה!",
+        "CALL": "קיבלנו את פנייתך!",
+        "APPOINTMENT_CANCELED": "בקשתך התקבלה"
+      },
+      "scheduleAppointment": "לקביעת פגישה בסוכנות",
+      "scheduleAppointment_APPOINTMENT_CANCELED": "לתיאום מועד חדש",
+      "scheduleAppointment_CALL": "לקביעת פגישה בסוכנות",
+      "setMeetingManually": "רוצה לתאם מועד חדש לפגישה בסוכנות?",
+      "setMeetingManually_CALL": " ",
+      "existingInteractionTitle_APPOINTMENT": "קבעת פגישה בסוכנות {agencyName}",
+      "existingInteractionTitle_CALL": "ביקשת ליצור קשר עם סוכנות {agencyName}",
+      "existingInteractionTitle_APPOINTMENT_CANCELED": "ביטלת פגישה בסוכנות {agencyName}",
+      "agencyPhoneNumbers": "רוצה להתקשר עכשיו?",
+      "agencyWillContactSoonMobile": "עכשיו אפשר לעבור לשיחה עם נציג הסוכונות",
+      "interactionCallNow": "התקשר/י עכשיו",
+      "appointmentExistsTitle": "כבר יש לך פגישה בסוכנות",
+      "continue": "שמור פגישה והמשך",
+      "appointmentExists": "כבר קיימת לך פגישה בסוכנות {agencyName}",
+      "appointmentDate": "מועד הפגישה"
+    }
+  },
+  "tradeinCarsList": {
+    "continueTradeIn": "להמשך טרייד אין",
+    "tradeAnotherCar": "להעלאת רכב אחר",
+    "myCar": "הרכב שלי",
+    "myCars": "הרכבים שלי ({index} מתוך {count})"
+  },
+  "fundingComponents": {
+    "userHebrewName": {
+      "dialogTitle": "לצורך בדיקת זכאות למימון, יש להזין שם מלא בעברית",
+      "inputTitle": "שם מלא בעברית",
+      "submit": "אישור"
+    },
+    "positiveStatusTitle": "יש לנו חדשות משמחות!",
+    "positiveStatusSubTitle": "<lineBreak> קיבלת אישור עקרוני להלוואה נצור איתך קשר בהקדם.</lineBreak> {mobileAddition}",
+    "positiveStatusSubTitleMobileAddition": "לא רוצה לחכות? ניתן לדבר כבר עכשיו עם נציג.",
+    "negativeStatusTitle": "<lineBreak>אופס...</lineBreak> נראה שמשהו השתבש",
+    "negativeStatusSubTitle": "ניתן לדבר עם נציג{mobileAddition} דרך סוכנויות הרכבים.",
+    "negativeStatusSubTitleMobileAddition": " כבר עכשיו או",
+    "greenStatus": "חדשות מעולות!",
+    "yellowStatus": "מימון ישיר צריכים ליצור איתך קשר",
+    "yellowStatusSubtitle": "חלק מהפרטים חסרים או אינם מלאים ולכן נציג צריך לבדוק זאת",
+    "redStatus": "לא קיבלת אישור עקרוני לקבלת מימון ממימון ישיר בשלב זה",
+    "greenStatusSubtitle": "קיבלת אישור עקרוני לקבלת מימון ממימון ישיר",
+    "greenStatusDetails": "עכשיו ניתן לבדוק את גובה ותנאי ההלוואה",
+    "errorStatus": "מצטערים, יש לנו תקלה זמנית ולא הצלחנו להשיג אישור אונליין ",
+    "reverseSkip": "לקבלת אישור עקרוני אונליין",
+    "redStatusDisclaimer": "אבל עדיין נוכל להתאים לך רכבים לפי ההעדפות שלך, להשיג פרטים נוספים עליהם ולבצע השוואות רלוונטיות",
+    "errorStatusDisclaimer": "אפשר להתקדם לקבלת הצעות ולקבל אישור גם בסוכנויות",
+    "disclaimer": "העמדת הכספים בפועל מהווה אישור סופי להעמדת ההלוואה. בכפוף לתנאי החברה.",
+    "mimunContactCheckbox": "אבקש שנציג מימון ישיר יצור איתי קשר",
+    "idNumber": "תעודת זהות",
+    "ccBoldNumber": "אני מעל גיל 21 וקיים ברשותי כרטיס אשראי מוטבע (בעל ספרות בולטות)",
+    "legalDisclaimer": "המידע שמסרתי נמסר מרצוני, וידוע לי שהוא יישמר במאגרי המידע של מימון ישיר וישמש אותה כמפורט באתר החברה בכתובת www.5555.co.il",
+    "legalDisclaimerWithCCBoldNumber": "<line>הנני מעל גיל 21 וברשותי כרטיס אשראי מוטבע (בעל ספרות בולטות).</line> המידע שמסרתי נמסר מרצוני, וידוע לי שהוא יישמר במאגרי המידע של מימון ישיר וישמש אותה כמפורט באתר החברה בכתובת <link>www.5555.co.il</link>",
+    "errorMessages": {
+      "idNumberInvalid": "מספר תעודת זהות לא תקין",
+      "hebrewUserNameInvalid": "שם בעברית בלבד, לפחות 2 אותיות בשם פרטי ובשם משפחה"
+    },
+    "loading": "זה ייקח כ-30 שניות, אנו בודקים את הפרטים שלך...",
+    "title": "{prefix} אישור עקרוני למימון {carModel} במספר שניות",
+    "subtitle": "לקבלת אישור עקרוני למימון אונליין ממימון ישיר תוך מספר שניות יש להזין מספר תעודת זהות",
+    "submit": "לקבלת אישור עקרוני",
+    "skip": "דילוג על שלב זה",
+    "relaxingText": "תעודת הזהות שלך משמשת אך ורק לבדיקת זכאות למימון במימון ישיר ואינה נשמרת במאגרי CARWIZ",
+    "fundingConfirmationFor": "אישור מימון עבור:",
+    "fundingConfirmationLegalDisclaimer": "האישור הינו אישור עקרוני להצעת מימון עבור רכישת רכבים המוצגים באתר CARWIZ",
+    "months": "לתקופה של <strong>{months}</strong>  חודשים",
+    "returnToCarsBtnText": "קחו אותי ללוח הרכבים",
+    "buttonText": "בדיקת מימון אונליין"
+  },
+  "post": {
+    "year": "שנת יצור",
+    "km": "ק״מ",
+    "hand": "יד",
+    "gear": "ת. הילוכים",
+    "drivingRange": "טווח נסיעה",
+    "allCars": "לכל רכבי",
+    "verifiedData": "נתונים במודעה נבדקו מול משרד התחבורה",
+    "distanceFromFilterLocationText": "כ-{distance} ק''מ מ{location}",
+    "priceDrop": "ירידת מחיר",
+    "newPost": "חדש באתר",
+    "daysInSite": "ימים באתר",
+    "benefits": "תוספות לעיסקה",
+    "noBenefits": "ללא תוספות לעסקה",
+    "miniPost": {
+      "priceTitle": "הצעת הסוכנות",
+      "fundingTitle": "לחודש"
+    },
+    "details": "מידע נוסף",
+    "imInterested": "מעניין אותי!",
+    "contactMe": "צרו איתי קשר לגבי רכב זה",
+    "contact": "יצירת קשר",
+    "promotion": "מבצע",
+    "benefitsList": {
+      "warranty_NEW_POST_TITLE": "עד 100% מימון"
+    },
+    "alerts": {
+      "lowKilometrage": "ק״מ נמוך במיוחד",
+      "discountAmount": "הנחה בגובה",
+      "electric": "רכב חשמלי",
+      "immediate_delivery": "אספקה מיידית",
+      "caroftheyear": "2023",
+      "flashsale": "{price} ₪ הנחה"
+    },
+    "warrantyLabel": "אחריות יצרן",
+    "warranty": "המידע מתייחס למועד העלייה לכביש, באדיבות אתר GEAR ובאחריותם בלבד. אנו ממליצים לבדוק באתר היבואן טרם הרכישה"
+  },
+  "authentication": {
+    "errorMessages": {
+      "required": "שדה חובה",
+      "emailInvalid": "כתובת האימייל לא תקינה",
+      "emailVerificationInvalid": "כתובות האימייל אינן תואמות",
+      "passwordLength": "סיסמה חייבת להיות באורך 6-14 תוים",
+      "passwordInvalid": "סיסמה חייבת להכיל רק אותיות לועזיות וספרות",
+      "passwordVerificationInvalid": "הסיסמאות אינן תואמות",
+      "nameLength": "שם חייב להיות באורך 2-20 תוים",
+      "nameInvalid": "שם לא תקין",
+      "phoneInvalid": "מספר טלפון לא תקין",
+      "carLicenseInvalid": "מספר לוחית הרישוי חייב להיות בעל 7 או 8 ספרות",
+      "dmvCodeInvalid": "קוד משרד תחבורה חייב להתחיל עם 5 ספרות ולאחר המקף 4 ספרות (ניתן לשים 0 בהתחלה)",
+      "invalidDate": "תאריך אינו תקין"
+    }
+  },
+  "extendedPostPage": {
+    "StockSection": {
+      "title": "טווח המחירים ב-CarWiz",
+      "currentLabel": "מחיר הרכב",
+      "buttonLabel": "לכל רכבי",
+      "cheapest": "הזול בהיצע",
+      "priciest": "היקר בהיצע",
+      "quantityOnline": "כמות הרכבים באתר:"
+    },
+    "getUpdates": {
+      "title": "להשאר תמיד בעניינים!",
+      "contentDesktop": "קבל/י עדכונים בכל פעם שיתווספו רכבים מתאימים",
+      "contentMobile": "קבל/י עדכונים בכל פעם שרכב בדגם ושנתון הזה יוצא למכירה",
+      "buttonLabel": "עדכנו אותי"
+    },
+    "missingPost": {
+      "title": "המודעה שחיפשת לא קיימת",
+      "subtitle": "ייתכן שהמודעה הוסרה או שהרכב נמכר"
+    },
+    "facebookStrip": {
+      "wizardText": "רוצה לגלות בעזרת הwizard עוד רכבים אשר מתאימים לך?",
+      "categoryText": "רוצה לצפות בעוד רכבים מסוג {category} במחיר דומה?",
+      "modelText": "רוצה לצפות בעוד {model} למכירה עכשיו?"
+    },
+    "licenseTimeLeftLabel": "טסט הבא בעוד",
+    "licenseTimeLeftValue": "{months} חודשים",
+    "licenseCost": "אגרת רישוי שנתית",
+    "searchAlert": "עדכנו אותי על רכבים דומים",
+    "specsSectionTitle": "מפרט טכני",
+    "accesoriesSectionTitle": "אבזור ומערכות",
+    "safetySectionTitle": "בטיחות",
+    "spacingSectionTitle": "מרווח ואחסון",
+    "engineSectionTitle": "מנוע וכוח",
+    "stockSectionTitle": "טווח המחירים בקארוויז",
+    "carDetailsTitle": "פרטי הרכב",
+    "insightsTitle": "דברים שכדאי לדעת",
+    "recommendationsTitle": "רכבים נוספים שיכולים לעניין אותך",
+    "stockAmmount": "כמות רכבים באתר",
+    "agenciesCount": "מגוון סוכנויות",
+    "engineDisplacement": "נפח מנוע",
+    "fuelType": "סוג דלק",
+    "wheelDriveType": "הנעת גלגלים",
+    "horsePower": "כח סוס",
+    "gearType": "תיבת הילוכים",
+    "pollutionLevel": "זיהום אוויר",
+    "sunRoof": "חלון גג",
+    "magneziumWheels": "חישוקי סגסוגת קלה",
+    "electricDoorCount": "מספר חלונות חשמל",
+    "engine": "מנוע",
+    "color": "צבע",
+    "weight": "משקל",
+    "height": "גובה",
+    "carBodyType": "מרכב",
+    "doorCount": "מספר דלתות",
+    "seatCount": "מספר מושבים",
+    "misparKariotAvir": "כריות אוויר",
+    "zihuyTamrureyTnua": "זיהוי תמרורי תנועה",
+    "zihuyMatzavHitkarvutMesukenet": "זיהוי מצב התקרבות מסוכנת",
+    "hayshaneyHagorot": "חיישני חגורות",
+    "hayshaneyLahatzAvirBatzmigim": "חיישני לחץ אויר",
+    "maarechetEzerLabalam": "מערכת עזר לבלם",
+    "bakaratShyutAdaptivit": "בקרת שיוט אדפטיבית",
+    "zihuyHolcheyRegel": "זיהוי הולכי רגל",
+    "zihuyBeshetahNistar": "זיהוי בשטח מת",
+    "niturMerhakMilfanim": "ניטור מרחק מלפנים",
+    "bakaratStiyaMenativ": "בקרת סטייה מנתיב",
+    "advancedSafetyFeatures": "אביזרי בטיחות מתקדמים:",
+    "noAdvancedFeatures": "הרכב בתצורתו המקורית אינו מכיל אביזרי בטיחות מתקדמים",
+    "requestOffer": "שפרו לי הצעה",
+    "similarCars": "צפייה בכל הרכבים במלאי",
+    "whatsapp": "שיתוף לווטסאפ",
+    "facebook": " שיתוף לפייסבוק",
+    "email": "שיתוף למייל",
+    "emailSubject": "תראה את הרכב שמצאתי באתר Carwiz",
+    "emailBody": "מצאתי עבורך {title} באתר Carwiz",
+    "emailLink": "לצפייה ופרטים נוספים לחץ כאן",
+    "km": "קילומטר נוכחי",
+    "hand": "יד",
+    "gear": "תיבת הילוכים",
+    "acChargingTime": "זמן טעינה AC (שעות)",
+    "dcChargingTime": "זמן טעינה DC (שעות)",
+    "drivingRange": "טווח נסיעה",
+    "batteryCapacityKwh": "קיבולת סוללה (קוט״ש)",
+    "importerResponsibility": "אחריות יבואן",
+    "zeroTo100Seconds": "אפס למאה קמ״ש (שניות)",
+    "originalOwner": "בעלות מקורית",
+    "currentOwner": "בעלות נוכחית",
+    "lastSeenTitle": "רכבים שצפית בהם לאחרונה",
+    "backToSearch": "חזרה לחיפוש רכבים",
+    "backToFavorites": "חזרה למועדפים שלך",
+    "version": "גירסה",
+    "year": "שנה",
+    "volume": "{cc} ליטר {fuel}",
+    "electric": "חשמלי",
+    "extendedPostPageTitle": "{title} מיד שנייה למכירה",
+    "extendedPostPageDecription": " שנת {car_year} במחיר {car_price} ש״ח או {monthly_payment} ש״ח החזר חודשי",
+    "showMoreInfo": "מידע נוסף",
+    "tradein": {
+      "title": "רוצה לקבל הצעת טרייד אין?",
+      "plateNumber": "הכנס/י את מס הרכב שלך",
+      "tradeCar": "לקבלת הצעת טרייד-אין",
+      "getOffer": "לקבלת הצעה",
+      "genericDescription": "החלפת הרכב מעולם לא הייתה קלה יותר! מכניסים פרטים על הרכב הקיים, בוחרים רכבים מהמלאי שלנו ומקבלים הצעות מותאמות אישית מהסוכנויות השונות ישירות לנייד",
+      "adjustedDescription": "ניתן להחליף את הרכב שלך ב{make} {model} הזו, רוצה לקבל הצעה?",
+      "wantToUpgrade": "רוצה להשתדרג?",
+      "subContent": "מחליפים את הרכב הקיים שלך, ומשדרגים אותו ב {postCarName}"
+    },
+
+    "licenseTimeLeft": "טסט הבא",
+    "months": "חודשים"
+  },
+  "loginPage": {
+    "loginPageTitle": "התחברות לחשבון | CARWIZ",
+    "loginPageDescription": "בעמוד זה תוכלו להתחבר לאזור האישי שלכם באתר קארוויז, לצפות במגוון הרכבים שבחרתם בעת החיפושים באתר וכן הצעות שקיבלתם מסוכנויות רכב שונות. היכנסו עכשיו!",
+    "continue": "המשך"
+  },
+  "insights": {
+    "ariaLabel": "לצפייה בכמה דברים שכדאי לדעת על רכב {car}",
+    "ariaLabelPlural": "לצפייה ב-{count} דברים שכדאי לדעת על רכב {car}",
+    "title": "דברים שכדאי לדעת",
+    "close": "סגירה"
+  },
+  "offer": {
+    "sold": "נמכר",
+    "cashoffer": "הצעת הסוכנות",
+    "fundOffer": "הצעת מימון",
+    "or": "או",
+    "fundingMonths": "לחודש",
+    "offer": "הצעת הסוכנות",
+    "optionTitle": "אפשרות",
+    "price": "מחיר",
+    "priceDrop": "ירידת מחיר",
+    "downPayment": "החזר חודשי",
+    "goOfferDetailsPage": "מעבר לעמוד הרכב",
+    "actions": {
+      "acceptCall": "יצירת קשר",
+      "acceptMeeting": "לפגישה בסוכנות",
+      "deleteAlt": "מחיקת הצעה",
+      "toSimilarCars": "לצפייה ברכבים דומים",
+      "carSold": "מישהו הקדים אותך ורכש את הרכב הזה",
+      "updateAppointment": "עדכון מועד",
+      "appointment": "פגישה"
+    }
+  },
+  "tradein": {
+    "yourCar": "הרכב שלך",
+    "plateNumber": "מספר רכב",
+    "carDate": "תאריך עלייה לכביש",
+    "hand": "יד",
+    "originOwner": "בעלות מקורית",
+    "color": "צבע",
+    "kilometrage": "ק״מ נוכחי",
+    "carCondition": "מצב הרכב",
+    "accidents": "תאונות",
+    "yes": "כן",
+    "no": "לא",
+    "details": "לכל הפרטים",
+    "carPostDate": "עודכן לאחרונה ב-",
+    "origin": "מקוריות",
+    "carOnRoadYear": "עלה לכביש בשנת",
+    "editData": "עריכת נתונים",
+    "editDataShort": "עריכה",
+    "carDetails": "פרטי הרכב שלך",
+    "kmShort": "ק״מ",
+    "carTitle": "סוג רכב",
+    "uploadMessage": "להעלאת תמונות יש ללחוץ כאן או לגרור את קבצי התמונות",
+    "finish": "שמירת שינויים",
+    "alertTitle": "חשוב לדעת!",
+    "alertContent": "לאחר שינוי פרטי הרכב ההצעות שביקשת עבור רכב זה לא יהיו תקפות יותר",
+    "alertCancel": "ביטול",
+    "alertOk": "אישור ושמירת השינויים",
+    "cancel": "ביטול",
+    "accidentsWarning": "בנוסף, הצהרת על כך שהרכב שלך עבר תאונה ולכן נציג מהסוכנות ייצור איתך קשר",
+    "imagesWarning": "בנוסף, חסרות תמונות של הרכב ולכן נציג מהסוכנות ייצור איתך קשר"
+  },
+  "availableCarsFooter": {
+    "desktopTitle": "זמינות עבורך במלאי הצעות מותאמות אישית",
+    "cars": "רכבים",
+    "availableCarsTitle": "מחכים לך",
+    "avaiableCarsSubtitle": "במאגר שלנו",
+    "findCar": "צפייה ברכבים",
+    "availableCars1": "זמינים עבורך במלאי",
+    "availableCars2": "רכבים"
+  },
+  "searchAlerts": {
+    "title_0": "לא קיימים חיפושים שמורים עליהם נעדכן אותך",
+    "title_1": "קיים חיפוש אחד שמור עליו נעדכן אותך",
+    "title_2": "להישאר תמיד בעניינים!",
+    "add_cars_2": "הוספת רכבים נוספים",
+    "subtitle_2": "ספר/י לנו אילו רכבים מעניינים אותך וקבל/י עדכונים בכל פעם כשיתווספו רכבים מתאימים",
+    "empty_state": "לא קיימים חיפושים שמורים עליהם נוכל לעדכן אותך.",
+    "add_cars": "הוספת רכבים",
+    "makeSelection": "בחירת יצרן",
+    "modelSelection": "בחירת דגם",
+    "areaSelection": "בחירת אזור",
+    "yearSelection": "בחירת שנתון",
+    "moreOptions": "אפשרויות נוספות",
+    "addCarButton": "הוספת רכב",
+    "search_notifications_title": "התראות על חיפוש",
+    "continueButton": "המשך",
+    "moreOptionsSubtitle": "יעזור לנו לתת לך תוצאות מדוייקות יותר",
+    "edit": "עריכה",
+    "titlePlural": "קיימים {count} חיפושים שמורים עליהם נעדכן אותך",
+    "addNewSearchAlert": "להוספת עדכון מלאי",
+    "delete": "מחיקה",
+    "car": "רכב",
+    "successStep": {
+      "title": "מעולה, \n נעדכן אותך בקרוב!",
+      "subtitle": "אנחנו נדאג לעדכן אותך בכל פעם שתיהיה מודעה רלוונטית עבורך, בנוסף תמיד אפשר לעדכן ולשנות את פרטי התקשורת וההתראות באזור האישי",
+      "mainButton": "חזרה לדף תוצאות",
+      "secondaryButton": "לאזור האישי שלי"
+    },
+    "mainTitle": "התראות על מלאי חדש",
+    "title": "איזה רכבים מעניינים אותך?",
+    "title2": "עובדים בשבילך",
+    "content": "מלא/י את הפרטים שלמטה ואנו נשלח לך עדכונים למייל כשיתווספו רכבים מתאימים",
+    "content2": "איזה רכבים מעניינים אותך? כל שעליך לעשות הוא למלא את הפרטים ואנחנו נדאג לעדכן אותך מיד כשיגיעו רכבים כמו שחיפשת.",
+    "createReminder": "עדכנו אותי"
+  },
+  "nearbyPostsFromAgency": {
+    "scheduleAppointment": "קביעת פגישה",
+    "subtitle": "האלגוריתם שלנו מצא עוד רכבים שיתאימו לך בסביבת הסוכנות",
+    "content": "אנו ממליצים לקבוע פגישות נוספות באותה הנסיעה כדי לחסוך זמן יקר",
+    "theAppointment": "הפגישה",
+    "nearbyCars": "דרך אגב..."
+  },
+  "avatars": {
+    "selectAvatarForm": {
+      "skip": "דלג",
+      "continue": "המשך",
+      "selectAvatarTitle": "איזה אייקון הכי מדבר אליך?"
+    }
+  },
+  "filters": {
+    "clearAll": "נקה הכל",
+    "continue": "המשך",
+    "filterHeader": "מיון וסינון",
+    "buttonLabel": "הצג {totalCount} תוצאות",
+    "close": "סגור",
+    "numOfResults": "{count} רכבים",
+    "ariaLabel": "סינון הרכבים",
+    "allFiltersTitle": "כל הסננים",
+    "budget": {
+      "title": "מחיר",
+      "maxDownPayment": "מקדמה עד",
+      "maxMonthlyPayment": "החזר חודשי עד",
+      "budgetTypeFunding": "לפי החזר חודשי",
+      "budgetTypeCash": "לפי תקציב",
+      "budgetIndicatorsFormatter": "{budget} ₪"
+    },
+    "accessories": {
+      "title": "אביזרים"
+    },
+    "area": {
+      "subtitle": "ניתן לבחור יותר מאזור אחד",
+      "areaTitle": "בחרו אזור",
+      "radiusTitle": "רדיוס",
+      "activeFilterChipTitle": "{radius} ק\"מ סביב {area}",
+      "activeFilterChipTitleMultipleAreas": "חיפוש באיזורים {areas} {districts}",
+      "radiusLabel": "{radius} ק''מ",
+      "areaInputTitle": "אזור"
+    },
+    "carBodyType": {
+      "title": "מרכב"
+    },
+    "carCategory": {
+      "title": "קטגוריה"
+    },
+    "additionalFilters": {
+      "title": "סננים נוספים"
+    },
+    "color": {
+      "title": "צבע",
+      "chip_input_label": "בחרו צבע",
+      "multiselection": "צבעים שנבחרו: {selectedColors}",
+      "placeholder": "הקלידו את שם הצבע",
+      "input_label": "בחירת צבע",
+      "color_you_selected": "צבעים שבחרת"
+    },
+    "engineDisplacement": {
+      "title": "נפח מנוע",
+      "fromEngineDisplacement": "מ",
+      "untilEngineDisplacement": "עד"
+    },
+    "engineType": {
+      "title": "סוג מנוע"
+    },
+    "gears": {
+      "title": "תיבת הילוכים"
+    },
+    "hand": {
+      "title": "יד",
+      "fromHand": "מ",
+      "untilHand": "עד"
+    },
+    "kilometrage": {
+      "title": "קילומטר",
+      "fromKilometrage": "מ",
+      "untilKilometrage": "עד"
+    },
+    "makeModel": {
+      "title": "יצרן ודגם",
+      "subtitle": "ניתן לבצע בחירה מרובה",
+      "makeTitle": "יצרן",
+      "modelTitle": "דגם",
+      "makeSelectUpTo": "ניתן לבחור עד 4 יצרנים",
+      "modelSelectUpTo": "ניתן לבחור עד 40 דגמים"
+    },
+    "seatsCount": {
+      "title": "מספר מושבים",
+      "fromSeatsCount": "מ",
+      "untilSeatsCount": "עד"
+    },
+    "year": {
+      "title": "שנת ייצור",
+      "fromYear": "משנת",
+      "untilYear": "עד שנת"
+    },
+    "originalOwner": {
+      "title": "בעלות מקורית"
+    },
+    "tradein": {
+      "title": "טרייד אין אונליין"
+    },
+    "insights": {
+      "title": "סינון עם האלגוריתם "
+    },
+    "electric": {
+      "title": "רכבים חשמליים"
+    },
+    "priceDiscount": {
+      "title": "רכבים בהנחה"
+    },
+    "discount": {
+      "title": "Crazy Sale"
+    },
+    "reset": {
+      "title": "נקה הכל"
+    }
+  },
+  "signupDialog": {
+    "redirectToOfferApprovePage": "מתחבר...",
+    "continue": "המשך",
+    "howItWorks": "איך זה עובד?",
+    "step1Title": "מחפשים",
+    "step1Content": "באמצעות האלגוריתם החכם שפיתחנו, ניתן לחפש רכבים בפשטות וביעילות על בסיס העדפות אישיות וסינונים חכמים",
+    "step2Title": "מתאמים",
+    "step2Content": "מתאמים באתר פגישה בסוכנות עבור רכב שאוהבים",
+    "step3Title": "מתניעים",
+    "step3Content": "מצאת את הרכב והעסקה האופטימליים עבורך? איזה כיף! רוכשים את הרכב הנבחר בביטחון ובראש שקט",
+    "referencedPostTitle": "הרכב שבו התעניינת",
+    "reassuringText": "הפרטיות שלך חשובה לנו - הטלפון משמש לחזרה אליך בנוגע לרכב שביקשת ולא מועבר לשום גורם אחר ללא אישורך"
+  },
+  "promotions": {
+    "tradein": {
+      "title": "טרייד אין",
+      "subtitle": "קבלו הצעות החלפה עבור הרכב שלכם ישירות לנייד מבלי להגיע לסוכנות",
+      "submitText": "להחלפת הרכב"
+    },
+    "tradein_alt": {
+      "title": "חושבים על עסקת טרייד אין?",
+      "secondary_title": "הגעתם למקום הנכון!",
+      "subtitle": "        הזינו פרטי רכב, בחרו ברכבים שמעניינים אתכם, והצעות טרייד אין מסוכנויות\n        יתחילו לזרום לטלפון הנייד שלכם!",
+      "submitText": "להחלפת הרכב"
+    },
+    "funding": {
+      "title": "אישור מימון",
+      "subtitle": "קבלו במהירות שיא אישור עקרוני למימון רכב",
+      "submitText": "לקבלת אישור עקרוני",
+      "price": "החל ממחיר",
+      "downPayment": "החזר חודשי החל מ-"
+    },
+    "fundingCarCard": {
+      "title": "איזה רכב שבא לך!",
+      "description": "הצעות מימון והלוואה לרכישת רכב בתנאים מחשמלים !",
+      "location": "מאיפה שנוח לך בארץ ",
+      "flag": "אסור לפספס",
+      "buttonText": "בדיקת מימון אונליין"
+    },
+    "crazySale": {
+      "title": "הנחות מטורפות על המווווון רכבים, ובנוסף, הנחה של 1.5% בריבית!",
+      "regulations": "בכפוף ל<link>תקנון</link>",
+      "attention": "<bold>לתשומת ליבך!</bold>\nההצעה המוצגת הינה לפני הנחת הריבית.",
+      "buttonPromotion": " לצפייה ברכבי CRAZY SALE"
+    },
+    "geely": {
+      "CTA": "לעמוד הרכב",
+      "startingFrom": "החל מ-",
+      "price": "151,990 ₪",
+      "minutes": "דק׳",
+      "chargingTime": "זמן טעינה",
+      "horsePower": "כ״ס",
+      "engineCapacity": "הספק מנוע",
+      "seconds": "שניות",
+      "to100": "ל-100 קמ״ש",
+      "km": "ק״מ",
+      "range": "טווח נסיעה",
+      "disclaimer": "המחיר מתייחס לדגם GEOMETRY C 350PRO לפי מחירון 22302. המחיר כולל מעמ ואינו כולל אגרת רישוי. על פי נתוני היצרן לפי בדיקות מעבדה. צריכת החשמל וטווח הנסיעה בפועל מושפעים, בין היתר, מתנאי הדרך, מתחזוקת הרכב, ממאפייני הנהיגה, מטמפרטורת הסביבה ומבלאי הסוללה. התמונה להמחשה בלבד. ט.ל.ח.",
+      "testDriveCTA": "תיאום נסיעת מבחן",
+      "getMimun": "קבלו מימון",
+      "getMimun2": "ברגע!",
+      "getMimun3": "התחילו את מסע החיפוש לרכב החלומות שלכם בראש שקט ונקי מדאגות",
+      "getMimunCTA": "להצעת מימון אונליין",
+      "monthlyPayment": "החזר חודשי החל מ-",
+      "availableInColors": "זמין בצבעים:"
+    },
+    "whatsapp": {
+      "main1": "עוד רגע, הרכב הבא שלך יהיה",
+      "main2": "בוואטסאפ.",
+      "additionalDetails": "פרטים נוספים"
+    }
+  },
+  "agencyDetails": {
+    "openingHours": "שעות פעילות",
+    "transportation": "תחנות קרובות",
+    "languages": "שפות",
+    "agents": "הסוכנים בסוכנות",
+    "metersFromAgency": " מ׳ מהסוכנות",
+    "stopType_bus_stop": "תחנת אוטובוס ",
+    "stopType_train_station": "תחנת רכבת ",
+    "navigateToAddress": "נווט ליעד",
+    "address": "כתובת",
+    "moreCarsInAgency": "רכבים נוספים בסוכנות",
+    "carsInAgency": "רכבי הסוכנות",
+    "moreInfoOnAgency": "מידע נוסף על הסוכנות",
+    "moreInfoOnAgency_APPOINTMENT": "מידע נוסף על הסוכנות בה קבעת פגישה",
+    "moreInfoOnAgency_CALL": "מידע נוסף על הסוכנות שתיצור איתך קשר",
+    "moreInfoOnAgency_APPOINTMENT_CANCELED": "מידע נוסף על הסוכנות",
+    "nearbyAgencyPosts": "רכבים בסביבת הסוכנות",
+    "notExposedSection": "סוכנויות לא פעילות באתר CARWIZ",
+    "notExposedShort": "סוכנות זו לא פעילה באתר CARWIZ",
+    "notExposed": "סוכנות זו לא פעילה באתר CARWIZ, אך יש לנו המון רכבים רלוונטיים עבורך באזור"
+  },
+  "postsPage": {
+    "noResults": {
+      "noResultsTitle": "לא נמצאו תוצאות",
+      "noResultsSubtitle": "אבל אל דאגה, מאגר הרכבים שלנו מתעדכן מדי יום. באפשרותך לרשום לנו איזה סוג רכב מעניין אותך ואנחנו כבר נדאג לשלוח לך התראות מלאי רלוונטיות. לנוחיותך ניתן גם לאפס סננים",
+      "otherOffers": "איפוס סננים",
+      "notifyMe": "לקבלת עדכונים"
+    },
+    "homePage": "דף הבית",
+    "searchAlert": "התראות על חיפוש",
+    "bellSearchAlert": "קבלת עדכונים ישירות למייל",
+    "searchAlertSnackBar": "תנו לנו לעזור לכם בחיפוש! קבלו עדכונים על רכבים דומים ישירות למייל ותחסכו לעצמכם זמן :)",
+    "searchAlertSnackBarButton": "לקבלת עדכונים",
+    "searchPageTitle": "CARWIZ | מגוון {title}",
+    "searchPageTitleWithPage": "CARWIZ | מגוון {title} - עמוד {page}",
+    "searchPageDescription": "מגוון {title} עכשיו בקארוויז. כנסו ומצאו רכב בהתאמה אישית בקלי קלות.",
+    "searchExample": "לדוגמא:",
+    "searchExampleAriaLabel": "{make} {model} {year}",
+    "searchPlaceHolder": "מה לחפש לך? יצרן, דגם, שנתון"
+  },
+  "loginDialog": {
+    "whatsappRecommendations": {
+      "title1": "מקבלים עדכונים על רכבים",
+      "title2": "ישירות לוואטסאפ 😊"
+    },
+    "immediateContact": {
+      "title": "מה הטלפון שלך?",
+      "subtitle": " "
+    },
+    "addToFavorites": {
+      "title": "צפייה במועדפים",
+      "subtitle": "כדי לצפות במועדפים שלך במכשירים שונים ולקבל התראות מחיר על רכבים אלו אנו צריכים את מספר הטלפון שלך "
+    },
+    "immediateAppointment": {
+      "title": "לפגישה בסוכנות",
+      "subtitle": "כדי שנוכל לתאם עבורך פגישה אנו צריכים את מספר הטלפון שלך"
+    },
+    "funding": {
+      "title": "הדרך לרכב הבא שלך מתחילה כאן! 😊",
+      "subtitle": "כדי שנבדוק זכאותך למימון במהירות, אנחנו צריכים את מספר הטלפון שלך"
+    },
+    "phoneCall": {
+      "title": "רגע לפני שמסיימים בוא נכיר \uD83D\uDE0A",
+      "subtitle": "כדי שנוכל לעדכן אותך לגבי רכבים מומלצים לך ברדיוס הקרוב לסוכנות בה קבעת פגישה או לבצע עבורך השוואה בין רכבים מתאימים לך, אנחנו זקוקים למס' הטלפון שלך"
+    },
+    "tradein": {
+      "title": "לאן לשלוח לך הצעות?",
+      "subtitle": "כדי שנוכל לעדכן אותך לגבי רכבים מומלצים לך ברדיוס הקרוב לסוכנות בה קבעת פגישה או לבצע עבורך השוואה בין רכבים מתאימים לך, אנחנו זקוקים למס' הטלפון שלך"
+    },
+    "threeImportantThings": {
+      "title": "3 דברים שחשוב לדעת",
+      "first": "השירות הוא חינמי",
+      "second": "אנחנו לא מעבירים את פרטיך לשום גורם ללא אישורך",
+      "third": "הטלפון שלך משמש לטובת ניהול הבחירות שלך, המלצות אישיות וההשוואות"
+    }
+  },
+  "afterTradeinDialog": {
+    "title": "בקשתך התקבלה",
+    "weWillContact": "בשעות הקרובות נחזור אליך במייל ובוואטסאפ עם הצעת טרייד אין על הרכב שלך",
+    "agentWillContact": "נציג מהסוכנות יצור איתך קשר בקרוב",
+    "backToSearch": "חזרה לחיפוש רכבים",
+    "toPersonalArea": "לאיזור האישי",
+    "afterCarUpload": "לידיעתך: הרכב שויך למשתמש שלך באתר, כעת ניתן ללחוץ על כפתור ״קבלת הצעה״ בכל עמוד רכב שמעניין אותך ולקבל עליו הצעת טרייד אין. גלישה מהנה!"
+  },
+  "tradeinWarningDialog": {
+    "titleNoImage": "רכב בלי תמונה",
+    "titleWithAccident": "רכב עם תאונה",
+    "descriptionNoImage": "לרכב שהעלית חסרות תמונות. כדי לקבל הצעת טרייד אין אונליין יש להעלות תמונות. במידה ואין ברשותך תמונות ניתן ליצור קשר עם הסוכנות",
+    "descriptionWithAccident": "הרכב שהעלית עבר תאונה. ניתן לקבל הצעת טרייד אין בסוכנות לאחר בדיקה",
+    "addImages": "הוספת תמונות",
+    "contact": "יצירת קשר"
+  },
+  "mainLearnPage": {
+    "title": "רוצה ללמוד מה הרכב הנכון ביותר עבורך?",
+    "postsTitle": "רכבים ממלאי האתר",
+    "description": "רכישת רכב היא אירוע חשוב ומשמעותי ולכן חשוב לנו לתת לך את כל הכלים, המידע והתובנות על מנת לבצע את ההחלטה המושכלת ביותר, זו הסיבה שהקמנו, לצד הכלים המתקדמים שמסייעים לך לתעדף ולבחור בין הרכבים השונים, גם מאגר מידע נרחב עם מידע ונתונים על היצרנים והדגמים השונים",
+    "seo": {
+      "title": "בקארוויז תקבלו את כל המידע שרציתם לדעת על הרכב הבא שלכם",
+      "description": "רכישת רכב היא אירוע חשוב ומשמעותי, ולכן חשוב לנו לתת לכם מאגר מידע נרחב עם מידע ונתונים על היצרנים והדגמים השונים כדי שתוכלו לברר כל מה שרציתם לדעת על הרכב הבא שלכם"
+    },
+    "seeMakeModelInfo": "לצפייה במידע",
+    "error": "יש לבחור יצרן או יצרן ודגם",
+    "newPosts": {
+      "title": "חדשים באתר"
+    }
+  },
+  "carMakePage": {
+    "makeLogoAlt": "לוגו של {make}",
+    "seo": {
+      "title": "CARWIZ | {make}",
+      "description": "כל מה שצריך לדעת על {make} - מידע כללי, מחירים, דגמים, גירסאות והיצע זמין למכירה"
+    },
+    "seeCarsForSale": "לצפייה ברכבי {make}",
+    "hotPosts": {
+      "title": "רכבי {make} במלאי"
+    },
+    "about": {
+      "title": "מידע כללי",
+      "factsTitle": "עובדות מעניינות על {make}:",
+      "makeInIsraelTitle": "{make} בישראל:",
+      "popularModels": "דגמים פופולריים של {make} בישראל:",
+      "showMore": "הצגת מידע נוסף",
+      "showLess": "צמצום מידע נוסף"
+    },
+    "modelsGallery": {
+      "title": "דגמי {make}",
+      "modelImageAlt": "תמונה של {make} {model}",
+      "toLearnModel": "מידע על הדגם",
+      "toModelCars": "לכל רכבי {make} {model}"
+    },
+    "linksGroups": {
+      "showMore": "הצגת אפשרויות נוספות",
+      "showLess": "צמצום אפשרויות נוספות",
+      "makeModelSearchPageGroup": {
+        "title": "חיפוש רכבי",
+        "itemLabelPrefix": "רכבי"
+      }
+    }
+  },
+  "carModelPage": {
+    "seo": {
+      "title": "CARWIZ | {make} {model} {year}",
+      "description": "כל מה שצריך לדעת על {make} {model} {year} - מידע כללי, מחירים, גירסאות והיצע זמין למכירה"
+    },
+    "hotPosts": {
+      "title": "רכבי {make} {model} {year} במלאי"
+    },
+    "similarPosts": {
+      "title": "רכבים דומים במלאי"
+    },
+    "seeCarsForSale": "לצפייה ברכבי {make} {model} {year}",
+    "summary": {
+      "title": "מידע כללי",
+      "multipleGenerations": "בשנת {currentYear} הושק הדור ה-{currentGeneration} של {make} {model} אשר החליף את הדור ה-{olderGeneration} ששווק משנת {olderYear}.",
+      "launchYear": "דגם זה של {make} הושק בשנת {year}",
+      "stillSold": "ועדיין משווק באותה צורה.",
+      "soldUntilYear": "ושווק עד שנת {year} באותה צורה.",
+      "generationNumber": "זהו הדור ה-{generation} של {make} {model}.",
+      "singleEngine": "הדגם שווק עם מנוע אחד בלבד.",
+      "multipleEngines": "הדגם שווק ב-{count} מנועים שונים.",
+      "singleEngineMultipleGenerations": "הדור ה-{generation} שווק עם מנוע אחד בלבד, ",
+      "multipleEnginesMultipleGenerations": "הדור ה-{generation} שווק ב-{count} מנועים שונים, ",
+      "engineDetails": "מנוע {engineLiter} סמ''ק המפיק {horsepower} כ''ס",
+      "singleBodyTypeVersion": "ניתן למצוא את הדגם רק ב",
+      "multipleBodyTypeVersion": "ניתן למצוא את הדגם בגרסאות ",
+      "bodyTypeVersion": "מרכב {bodyType}",
+      "carsCount": "נכון להיום נוסעים על הכביש {carsOnRoadCount} רכבי {make} {model} {year}.",
+      "originalPrice": "כרכב חדש בשנת {year} הרכב נמכר במחירים של החל מ-{originalPrice} ₪.",
+      "currentPrices": "כיום עומדים באתר {carsInStockCount} רכבים למכירה מדגם זה במחיר שבין {priceMax} ₪ - {priceMin} ₪, תלוי מצב וגירסה."
+    },
+    "gallery": {
+      "title": "גלריה"
+    },
+    "pricesRange": {
+      "title": "מחירון רכב LIVE",
+      "pricesCount": "{count} רכבים",
+      "priceCount": "רכב אחד",
+      "priceCountDescription": "{carCount} בטוח מחירים בין {price1} ל - {price2}"
+    },
+    "versionsLinks": {
+      "title": "גירסאות",
+      "linkText": "{make} {model} {year} {bodyType} {engineLiters} סמ''ק {gear} {finishLevel}",
+      "electricLinkText": "{make} {model} {year} {bodyType} חשמלי {finishLevel}",
+      "generation": "דור {generation}"
+    }
+  },
+  "carVersionPage": {
+    "pageTitle": "{make} {model} {year} {bodyType} {engineLiters} סמ''ק {gear} {finishLevel}",
+    "electricPageTitle": "{make} {model} {year} {bodyType} חשמלי {finishLevel}",
+    "engineLitersPostfix": "סמ''ק",
+    "seo": {
+      "title": "CARWIZ | {make} {model} {year} {bodyType} {engineLiters} סמ''ק {gear} {finishLevel}",
+      "description": "כל מה שצריך לדעת על {make} {model} {year} {versionDetails} - מידע כללי, מפרט, מחירים והיצע זמין למכירה"
+    },
+    "seeMoreHotPosts": "לצפייה ברכבי {make} {model} {year} {bodyType} {engineLiters} סמ''ק {gear}",
+    "seeMoreSimilarPostsToVersion": "לצפייה ברכבים דומים",
+    "hotPosts": {
+      "title": "רכבי {make} {model} {year} {bodyType} {engineLiters} סמ''ק {gear} {finishLevel} במלאי"
+    },
+    "similarPosts": {
+      "title": "רכבים דומים במלאי"
+    },
+    "details": {
+      "exists": "יש",
+      "notExists": "אין",
+      "id": {
+        "title": "תעודת זהות",
+        "year": "שנת דגם",
+        "numberOfDoors": "מספר דלתות"
+      },
+      "engineAndPerformance": {
+        "title": "מנוע וביצועים"
+      },
+      "safety": {
+        "title": "בטיחות"
+      },
+      "dimensions": {
+        "title": "מידות"
+      },
+      "multimedia": {
+        "title": "מולטימדיה ותקשורת"
+      },
+      "accessories": {
+        "title": "אבזור ונוחות"
+      }
+    }
+  },
+  "computestPage": {
+    "carPlateNumber": {
+      "title": "100 ₪ מתנה לבדיקה בקומפיוטסט",
+      "subtitle": "לקוחות CARWIZ, מנוע רכישת הרכב המתקדם בישראל, נהנים מ-100 ₪ מתנה לבדיקה בקומפיוטסט",
+      "inputTitle": "הקלד מספר רכב כאן",
+      "submit": "קחו אותי להטבה",
+      "invalidPlateNumberLength": "מספר רכב חייב להיות בעל 7 או 8 ספרות"
+    },
+    "phoneForm": {
+      "title": "הזדהות חד פעמית",
+      "subtitle": "על מנת שנוכל להיות בטוחים שאף אחד לא עושה שימוש בהטבה האישית שלך, יש להזדהות באמצעות מספר הטלפון איתו נרשמת ל-CARWIZ",
+      "inputTitle": "מספר טלפון",
+      "submitButtonText": "שלחו לי קוד אימות"
+    },
+    "verificationCode": {
+      "submitButtonText": "לקבלת קוד ההטבה"
+    },
+    "couponCode": {
+      "couponValueTitle": "סכום ההנחה",
+      "couponValue": "₪{value}",
+      "carPlateNumber": "מספר רישוי: {carPlateNumber}",
+      "description": "לקבלת ההנחה יש להציג את קוד ההטבה במעמד הבדיקה",
+      "searchCarsButtonText": "לחיפוש רכבים",
+      "learnAboutCarsButtonText": "למידע על רכבים"
+    }
+  },
+  "carwizard": {
+    "close": "סגור",
+    "upTo": "עד {max}",
+    "back": "חזרה",
+    "skip": "דלג",
+    "welcome": {
+      "title": "הנתיב המהיר לרכב הבא שלך",
+      "content": "כדי לייעל את תהליך חיפוש הרכב ולחסוך זמן, אנחנו מזמינים אותך לעבור תהליך מקוצר, ממוקד ומותאם אישית לצרכים שלך. מה מעניין אותך?",
+      "buy": "רכבים למכירה",
+      "explore": "ללמוד על דגמים"
+    },
+    "buy": {
+      "question": "איזה מסלול הכי מתאים לך?",
+      "founding": "מימון",
+      "tradeIn": "טרייד אין",
+      "regular": "רגיל"
+    },
+    "buyRegular": {
+      "question": "יש דגם ספציפי שחשבת עליו?",
+      "yes": "כן, יש לי",
+      "no": "לא, אשמח לעזרה"
+    },
+    "buyByName": {
+      "selectMakeAndModel": "איזה יצרן ודגם?",
+      "selectYear": "איזו שנה?",
+      "selectBudget": "מה התקציב?",
+      "showCars": "לצפייה ברכבים"
+    },
+    "funding": {
+      "title": "פריסת ההלוואה",
+      "checkEligibility": "המשך"
+    },
+    "wizard": {
+      "questions": {
+        "whoIsDriving": {
+          "question": "למי הרכב?",
+          "single": "רק אני",
+          "couple": "זוג",
+          "family": "משפחה",
+          "overFive": "מעל 5 נוסעים"
+        },
+        "selectArea": {
+          "question": "באיזה אזור בארץ לחפש?",
+          "center": "מרכז",
+          "south": "דרום",
+          "north": "צפון",
+          "jerusalem": "ירושלים",
+          "all": "כל הארץ"
+        },
+        "selectInsights": {
+          "question": "מה חשוב לך ברכב?",
+          "baby": "מתאים לתינוק",
+          "off_road": "מתאים לשטח",
+          "luxurious": "יוקרתי",
+          "large_cargo": "תא מטען גדול",
+          "good_fuel_consumption": "חסכוני בדלק",
+          "safety_systems": "מערכות בטיחות מתקדמות"
+        },
+        "selectAccessories": {
+          "question": "איזה אבזור היית רוצה?",
+          "ble": "בלוטות",
+          "climate_control": "בקרת אקלים",
+          "alloy_wheels": "חישוקי סגסוגת",
+          "sunroof": "חלון בגג",
+          "adaptive_cruise_control": "בקרת שיוט אדפטיבית",
+          "isofix": "איזופיקס"
+        },
+        "selectBudget": {
+          "question": "מה התקציב שלך?",
+          "buttonPrefix": "עד -",
+          "all": "כל תקציב"
+        }
+      },
+      "next": "המשך"
+    }
+  },
+  "carwizard_v2": {
+    "welcome": {
+      "title": "תמליצו לי על הרכב הבא שלי",
+      "subtitle": "יש לך דגם ספציפי שחשבת עליו?",
+      "text": "CARWIZ. מקום מצוין להתחיל את המסע למציאת הרכב הבא שלך. ספר/י לנו קצת על ההעדפות שלך ונמליץ לך על הרכבים הכי מתאימים",
+      "cta": {
+        "primary": "כן",
+        "secondary": "לא, אשמח לעזרה"
+      }
+    },
+    "wizard": {
+      "next": "המשך",
+      "numerator": "יש לנו {totalResults} רכבים התואמים את העדפתך",
+      "numeratorStart": "יש לנו ",
+      "numeratorEnd": " רכבים התואמים את העדפתך",
+      "questions": {
+        "select_car": {
+          "question": "איזה סוג רכב יכול לעניין אותך?",
+          "subtitle": "ניתן לבחור יותר מסוג אחד",
+          "next": "המשך",
+          "multiple": true,
+          "size": 9,
+          "options": {
+            "mini": "קטנות",
+            "family": "משפחתיות",
+            "off_road": "פנאי ושטח",
+            "luxurious": "יוקרה",
+            "executive": "מנהלים",
+            "sport": "ספורט",
+            "five_plus": "מעל 5 נוסעים",
+            "minivans": "מיניוואנים",
+            "vans_and_trucks": "טנדרים ומסחריות"
+          }
+        },
+        "search_my_location": {
+          "question": "סוג חיפוש",
+          "subtitle": "או",
+          "next": "המשך",
+          "options": {
+            "use_my_location": "השתמש במיקום שלי",
+            "search_by_area": "חפש/י לפי אזור"
+          }
+        },
+        "search_by_area": {
+          "question": "באיזה אזור בארץ לחפש?",
+          "subtitle": "ניתן לבחור יותר מאזור אחד",
+          "next": "המשך",
+          "multiple": true,
+          "size": 7,
+          "options": {
+            "south": "דרום",
+            "north": "צפון",
+            "haifa": "חיפה",
+            "all": "כל הארץ",
+            "center": "מרכז",
+            "jerusalem": "ירושלים",
+            "tlv_area": "תל אביב והסביבה"
+          }
+        },
+        "select_budget": {
+          "question": "מה התקציב שלך?",
+          "next": "המשך",
+          "multiple": false,
+          "size": 6,
+          "options": {
+            "50": "עד ₪50,000",
+            "100": "עד ₪100,000",
+            "150": "עד ₪150,000",
+            "200": "עד ₪200,000",
+            "300": "עד ₪300,000",
+            "limitless": "אין מגבלה"
+          }
+        }
+      }
+    }
+  },
+  "cmsPage": {
+    "title": "CARWIZ | {title}"
+  },
+  "favoritesPage": {
+    "favoritesToggleButton": "מועדפים",
+    "comparisonToggleButton": "השוואה",
+    "favorites": {
+      "title": "מועדפים",
+      "subTitle": "",
+      "pageTitle": "CARWIZ | מועדפים",
+      "pageDescription": "",
+      "noResultsTitle": "עדיין לא הוספת רכבים שאהבת",
+      "noResultsBody": "כדי שיהיו כאן רכבים צריך לבחור רכבים שאוהבים :)",
+      "searchAlertBannerText": "רוצה לקבל עדכונים כשהמחיר יורד?",
+      "searchAlertBannerButtonText": "עדכנו אותי",
+      "authPopupTitle": "מה הטלפון שלך?",
+      "authPopupSubtitle": "נעדכן אותך כשהמחיר של רכב מהמועדפים שלך יורד",
+      "seo": {
+        "pageTitle": "CARWIZ | מועדפים",
+        "pageDescription": ""
+      }
+    },
+    "comparison": {
+      "title": "השוואה",
+      "subTitle": "",
+      "noResultsTitle": "אין רכבים להשוואה",
+      "noResultsBody": "כדי שיופיעו כאן רכבים יש להוסיף רכבים למועדפים :)",
+      "seo": {
+        "pageTitle": "CARWIZ | השוואת מועדפים",
+        "pageDescription": ""
+      }
+    }
+  },
+  "flows": {
+    "requestCallFlow": {
+      "titleDesktop": "רוצה ליצור קשר עם הסוכנות ב{areaName}?",
+      "title": "יצירת קשר עם\n הסוכנות",
+      "subtitle": "איך תעדיף/י ליצור קשר עם הסוכנות?",
+      "primaryCTA": "אשמח שיחזרו אליי",
+      "secondaryCTA": "רוצה לדבר עם נציג",
+      "dialogTitle": "אישור יצירת קשר",
+      "success": {
+        "title": "קיבלנו את פנייתך בנוגע לרכב:",
+        "bodyTopLine": "תודה על פנייתך, בקרוב אחד מנציגי ",
+        "bodyBottomLine": "הסוכנות ב{areaName} יצור איתך קשר",
+        "cta": "חזרה ללוח הרכבים"
+      },
+      "success2": {
+        "callNow": "חייג/י עכשיו",
+        "title": "קיבלנו את פנייתך בנוגע לרכב:",
+        "title_success": "קיבלנו את פנייתך",
+        "primaryCTA": "אשמח שיחזרו אליי",
+        "button_label": "לתיאום פגישה בסוכנות",
+        "thank_you_line": " בקרוב אחד מנציגינו יצור איתך קשר",
+        "business_hours_desktop_line": "רוצה לדבר עם נציג ?  {phoneNumber}"
+      },
+      "outOfHours": {
+        "callNow": "חייג/י עכשיו",
+        "outsideBusinessHours": "משרדי הסוכנות סגורים כרגע, ניתן להשאיר",
+        "outsideBusinessHours2": "פניה ויחזרו אליך בשעות הפעילות",
+        "ctaOutsideHours": "אשמח שיחזרו אליי"
+      },
+      "variantB": {
+        "contactTopicSelectionScreen": {
+          "CTAs": {
+            "1": "בנושא הרכב שראיתי",
+            "2": "אפשרויות מימון הרכב",
+            "3": "טרייד-אין על הרכב שלי"
+          },
+          "texts": {
+            "titleDesktop": "רוצה ליצור קשר עם הסוכנות ב{areaName}?",
+            "title": "יצירת קשר עם הסוכנות ב-{areaName}",
+            "subtitle": "באיזה נושא תרצה/י לפנות אל הסוכנות?"
+          }
+        },
+        "successScreen": {
+          "texts": {
+            "subtitle": "בקרוב אחד מנציגינו יחזור אליך"
+          }
+        }
+      }
+    },
+    "whatsappRecommendationsFlow": {
+      "alreadySigned": {
+        "title": "שמנו לב שכבר הצטרפת לשירות :)",
+        "subTitle": "נמשיך לשלוח לך רכבים מתאימים בוואטסאפ!"
+      },
+      "joinService": {
+        "title": "הצטרפות לשירות המלצות בוואטסאפ",
+        "subTitle": "רגע לפני שנתחיל לשלוח אליך המלצות על רכבים שמתאימים לך, רוצים לוודא שבלחיצה על הכפתור הכחול בתחתית המסמך את/ה מאשר/ת קבלת כלל הודעות הוואטסאפ הנשלחות מקארוויז?"
+      },
+      "registerSuccess": {
+        "title": "הצטרפת לשירות בהצלחה!",
+        "subTitle": "<lineBreak>מהיום נשלח אליך המלצות על רכבים שמתאימים לך.</lineBreak> <strong>בהצלחה!</strong>"
+      },
+      "buttonsLabels": {
+        "backToSearch": "חזרה ללוח רכבים",
+        "wantToJoin": "אשמח להצטרף לשירות"
+      }
+    }
+  },
+  "tourFlow": {
+    "joyride": {
+      "back": "אחורה",
+      "close": "תודה",
+      "last": "אחרון",
+      "next": "הבנתי",
+      "skip": "דלג"
+    }
+  },
+  "tradeIn": {
+    "plateStep": {
+      "plateNumber": "מספר רכב",
+      "currentHand": "יד",
+      "nextCarUsage": "אפשר להתקדם",
+      "howItWorks": "איך זה עובד?",
+      "accidents": "עבר תאונות",
+      "kilometrage": "ק\"מ נוכחי",
+      "year": "תאריך עלייה לכביש",
+      "color": "צבע",
+      "originOwner": "בעלות מקורית",
+      "loading": "רק רגע, בודקים את פרטי הרכב...",
+      "title": "מה מספר הרכב שלך?",
+      "subtitle": "אנחנו כבר נדאג למלא את הפרטים הרלוונטיים",
+      "close": "סגירה",
+      "errorMessages": {
+        "plateNumberInvalid": "מספר רכב חייב להיות בעל 7 או 8 ספרות",
+        "kilometrageInavlid": "קילומטראז׳ גבוהה מדיי - ייתכן שטעית בהקלדה?",
+        "handInvalid": "כמות ידיים גבוהה מדיי",
+        "invalidDate": "תאריך אינו תקין",
+        "validatePlateNumberFail": "מספר רכב זה אינו קיים במאגרי משרד הרישוי",
+        "validateKmFail": "הקילומטראז׳ שהזנת קטן מהקילומטר של הטסט האחרון",
+        "carDmvNotFound": "פרטי רכב זה אינם מופיעים במאגר משרד התחבורה",
+        "carPlateDoesNotExist": "מספר הרכב אינו קיים במאגר",
+        "contactUs1": "שלחו לנו מייל לכתובת:",
+        "contactUs2": "info@carwiz.co.il",
+        "carAlreadyInStock": "רכב זה נמצא כבר במלאי הסוכנות",
+        "apiError": "היתה בעיה בהבאת נתוני מספר רכב זה, נסה שנית או פנה לתמיכה",
+        "carNotFound": "פרטי רכב לא נמצאו במאגר משרד התחבורה [404]"
+      }
+    },
+    "detailStep": {
+      "plateNumber": "מספר רכב",
+      "currentHand": "יד",
+      "formTitle": "יש למלא את פרטי הרכב במדויק",
+      "formSubtitle": "כך יהיה אפשר לקבל את ההצעות הטובות ביותר",
+      "aboutCarTitle": "ספר/י עוד על ה{make} שלך",
+      "aboutCarPlaceholder": "מהם הדברים שהופכים את הרכב שלך למיוחד? כמה זמן הרכב נמצא אצלך? האם הוספת תוספות, שיפורים ואביזרים לרכב? ככל שנדע יותר כך נוכל לתת לך הצעות אטרקטיביות יותר",
+      "errorMessages": {
+        "colorOverrideDMVRecords": "שים לב! אתה עומד לשנות את הצבע שהתקבל ממשרד התחבורה",
+        "plateNumberInvalid": "מספר לוחית הרישוי חייב להיות בעל 7 או 8 ספרות",
+        "kilometrageInavlid": "הקילומטראז׳ לא תקין",
+        "handInvalid": "יד לא תקינה",
+        "invalidDate": "תאריך אינו תקין",
+        "validatePlateNumberFail": "מספר רכב לא תקין או שאינו קיים במערכת",
+        "validateKmFail": "הקילומטראז׳ שהזנת קטן מהקילומטר של הטסט האחרון",
+        "aboutCarTooLong": "מקסימום 140 תווים"
+      },
+      "nextCarUsage": "המשך להעלאת תמונות",
+      "accidents": "עבר תאונות",
+      "kilometrage": "ק\"מ נוכחי",
+      "year": "תאריך עלייה לכביש",
+      "color": "צבע",
+      "originOwner": "בעלות מקורית",
+      "loading": "רק רגע, בודקים את פרטי הרכב...",
+      "errorFound": "לא הרכב שלך?",
+      "reset": "תיקון מספר הרכב",
+      "condition": "מצב הרכב",
+      "finishLevel": "רמת גימור"
+    },
+    "reviewStep": {
+      "fundingMessage": "לידיעתך, אפשר לקבל מימון לרכב הבא שלך במגוון מסלולים שונים",
+      "confirmContactCheckbox": "מאשר/ת שנציג הסוכנות יצור איתי קשר לקבלת מידע נוסף במידת הצורך",
+      "continueOnlineCheckbox": "מעדיפ/ה לקבל קודם הצעות ורק אחר כך לדבר עם מי שנדרש"
+    },
+    "conditions": {
+      "FAIR": "סביר",
+      "GOOD": "טוב",
+      "VERY_GOOD": "טוב מאוד",
+      "EXCELLENT": "כמו חדש"
+    },
+    "searchPage": {
+      "headerTitle": "הוספנו בהצלחה את ה{make} שלך!",
+      "title": "על איזה רכב נחפש  לך הצעת טרייד-אין?",
+      "recommendedPosts": "רכבים מומלצים",
+      "lastSeenPosts": "רכבים שהתעניינת בהם",
+      "searchButtonLabel": "חיפוש רכבים לטרייד אין",
+      "searchPageButtonLabel": "ללוח הרכבים המלא",
+      "firstSearchFiltersToggle": "פתוח/ה להמלצות",
+      "secondSearchFiltersToggle": "רוצה רכב ספציפי"
+    },
+    "yourCar": "הרכב שלך",
+    "plateNumber": "מספר רכב",
+    "carDate": "תאריך עלייה לכביש",
+    "hand": "יד",
+    "originOwner": "בעלות מקורית",
+    "color": "צבע",
+    "kilometrage": "ק״מ נוכחי",
+    "carCondition": "מצב הרכב",
+    "accidents": "תאונות",
+    "yes": "כן",
+    "no": "לא",
+    "details": "לכל הפרטים",
+    "carPostDate": "עודכן לאחרונה ב-",
+    "origin": "מקוריות",
+    "carOnRoadYear": "עלה לכביש בשנת",
+    "editData": "עריכת נתונים",
+    "editDataShort": "עריכה",
+    "carDetails": "פרטי הרכב שלך",
+    "kmShort": "ק״מ",
+    "carTitle": "סוג רכב",
+    "uploadMessage": "להעלאת תמונות יש ללחוץ כאן או לגרור את קבצי התמונות",
+    "finish": "שמירת שינויים",
+    "alertTitle": "חשוב לדעת!",
+    "alertContent": "לאחר שינוי פרטי הרכב ההצעות שביקשת עבור רכב זה לא יהיו תקפות יותר",
+    "alertCancel": "ביטול",
+    "alertOk": "אישור ושמירת השינויים",
+    "cancel": "ביטול",
+    "accidentsWarning": "בנוסף, הצהרת על כך שהרכב שלך עבר תאונה ולכן נציג מהסוכנות ייצור איתך קשר",
+    "imagesWarning": "בנוסף, חסרות תמונות של הרכב ולכן נציג מהסוכנות ייצור איתך קשר",
+    "planDialog": {
+      "title": "הצעות טרייד אין בדרך",
+      "subtitle": "יש לעבור על פרטי הרכב שלך ולוודא שהפרטים נכונים",
+      "tradeiOffers": "קבלת הצעות טרייד אין",
+      "dontWantTradein": "לא רוצה לקבל הצעת טרייד אין? ",
+      "clickHere": "לקבלת הצעה רגילה",
+      "step1": "מספר רכב",
+      "step2": "פרטי הרכב",
+      "step3": "העלאת תמונות",
+      "step4": "סיום",
+      "uploadMessage": "להעלאת תמונות יש ללחוץ כאן או לגרור את קבצי התמונות",
+      "noPhotos": "במידה ואין לך תמונות זמינות כעת ניתן להמשיך ונציג יצור איתך קשר להשלמת פרטים.",
+      "noPhotosSkipButton": "להמשיך ללא תמונות",
+      "userCarStatusDeclaration": "הפרטים שהזנתי למערכת נכונים ועליהם תתבסס הצעת המחיר",
+      "accidentsDelcaration": "ידוע לי שנציג הסוכנות ייצור איתי קשר כי הרכב שלי עבר תאונה",
+      "noPhotosDeclaration": "ידוע לי שנציג הסוכנות ייצור איתי קשר כי לא העליתי תמונות של הרכב",
+      "uploadPhotosTitle": "הגיע הזמן להשוויץ ברכב שלך...",
+      "uploadPhotosSubtitle": "כדי לקבל הצעות יש להעלות מינימום {minPhotos} תמונות של הרכב",
+      "edit": "לעריכת הפרטים",
+      "save": "לשמירת הפרטים",
+      "getOffer": "לקבלת הצעה",
+      "finishTitle": "עוד רגע וסיימנו!",
+      "finishSubtitle": "לפני שממשיכים לצפייה ברכבים ולקבלת הצעות טרייד אין חשוב לוודא שכל הפרטים נכונים",
+      "getOfferSubtitle": "כל הפרטים נכונים? אפשר להתקדם לקבלת הצעה"
+    }
+  },
+  "errorMessages": {
+    "required": "שדה חובה",
+    "emailInvalid": "כתובת האימייל לא תקינה",
+    "emailVerificationInvalid": "כתובות האימייל אינן תואמות",
+    "passwordLength": "סיסמה חייבת להיות באורך 6-14 תוים",
+    "passwordInvalid": "סיסמה חייבת להכיל רק אותיות לועזיות וספרות",
+    "passwordVerificationInvalid": "הסיסמאות אינן תואמות",
+    "nameLength": "שם חייב להיות באורך 2-20 תוים",
+    "nameInvalid": "שם לא תקין",
+    "phoneInvalid": "מספר טלפון לא תקין",
+    "carLicenseInvalid": "מספר לוחית הרישוי חייב להיות בעל 7 או 8 ספרות",
+    "dmvCodeInvalid": "קוד משרד תחבורה חייב להתחיל עם 5 ספרות ולאחר המקף 4 ספרות (ניתן לשים 0 בהתחלה)",
+    "invalidDate": "תאריך אינו תקין"
+  },
+  "userCar": {
+    "lastUpdate": "עודכן ב - {day}.{month}.{year}",
+    "km": "{km} ק״מ",
+    "hand": "יד {hand}",
+    "carOnRoadYear": "עלה לכביש בשנת",
+    "yourCarDetails": "פרטי הרכב שלך",
+    "edit": "עריכה",
+    "moreDetails": "פרטים נוספים",
+    "carSubtitle": "{year}  |  יד {hand} | {km} ק״מ",
+    "detailsTable": {
+      "plateNumber": "מספר רכב",
+      "currentHand": "יד",
+      "carDate": "תאריך עלייה לכביש",
+      "nextCarUsage": "בואו נתקדם",
+      "accidents": "עבר תאונות",
+      "kilometrage": "ק\"מ נוכחי",
+      "year": "תאריך עלייה לכביש",
+      "color": "צבע",
+      "originOwner": "בעלות מקורית",
+      "loading": "רק רגע, בודקים את פרטי הרכב...",
+      "errorFound": "לא הרכב שלך?",
+      "reset": "תיקון מספר הרכב",
+      "condition": "מצב הרכב",
+      "finishLevel": "רמת גימור",
+      "hand": "יד",
+      "carCondition": "מצב הרכב",
+      "yes": "כן",
+      "no": "לא",
+      "aboutCar": "ספר/י עוד על ה{make} שלך"
+    }
+  },
+  "specification": {
+    "airConditioningHumidityControl": "בקרת לחות",
+    "airConditioningRearControl": "שליטה אחורית במערכת מיזוג",
+    "airConditioningType": "מערכת מיזוג",
+    "airConditioningZones": "מספר איזורי מיזוג",
+    "autoHighbeam": "אורות גבוהים אוטומטיים",
+    "blindJunctionView": "מערכת לניטור רכב בשטח מת",
+    "body": "מרכב",
+    "breakAssistantSystem": "מערכת לבלימת חירום עצמאית",
+    "carAbs": "ABS",
+    "cargoLiters": "נפח תא מטען (ליטר)",
+    "cargoLitersSeatsDown": "נפח תא מטען בקיפול מושבים (ליטר)",
+    "compressor": "טורבו",
+    "cruiseControl": "בקרת שיוט",
+    "dimensionsHeadroomFront": "מרווח ראש מושב קדמי (ס״מ)",
+    "dimensionsHeadroomRear": "מרווח ראש מושב אחורי (ס״מ)",
+    "dimensionsHeight": "גובה (ס''מ)",
+    "dimensionsHiproomFront": "מרווח מותניים מושב קדמי (ס״מ)",
+    "dimensionsHiproomRear": "מרווח מותניים מושב אחורי (ס״מ)",
+    "dimensionsLegroomFront": "מרווח רגליים מושב קדמי (ס״מ)",
+    "dimensionsLegroomRear": "מרווח רגליים מושב אחורי (ס״מ)",
+    "dimensionsLength": "אורך (ס''מ)",
+    "dimensionsShoulderroomFront": "מרווח כתפיים מושב קדמי (ס״מ)",
+    "dimensionsShoulderroomRear": "מרווח כתפיים מושב אחורי (ס״מ)",
+    "dimensionsWidth": "רוחב (ס''מ)",
+    "directionalHeadlights": "פנסים עוקבי פנייה",
+    "disablePassengerAirbag": "ביטול כרית אוויר לנוסע",
+    "driverSeatHeatedFront": "כיסא נהג מחומם",
+    "engineDisplacement": "נפח מנוע (סמ''ק)",
+    "finishLevel": "רמת גימור",
+    "frontFogLights": "פנסי ערפל",
+    "frontTires": "גלגלים קדמיים",
+    "fuelConsumptionCombined": "צריכת דלק ממוצעת (ק''מ/ליטר)",
+    "fuelConsumptionHighway": "צריכת דלק בינעירונית (ק''מ/ליטר)",
+    "fuelConsumptionUrban": "צריכת דלק עירונית (ק''מ/ליטר)",
+    "fuelTankLiters": "נפח מיכל דלק (ליטרים)",
+    "fuelType": "סוג דלק",
+    "gear": "תיבת הילוכים",
+    "hasSubwoofer": "סאב וופר",
+    "headlightBulbType": "פנס קדמי",
+    "isofix": "איזופיקס (ISOFIX)",
+    "laneDepartureWarning": "מערכת להתרעת סטייה מנתיב",
+    "maximumHorsePower": "הספק מירבי (כ''ס)",
+    "maximumSpeed": "מהירות מירבית (קמ''ש)",
+    "maximumTorgue": "מומנט מירבי (קג''מ)",
+    "maximumWeightKg": "משקל מקסימלי (ק''ג)",
+    "minimumWeightKg": "משקל מינימלי (ק''ג)",
+    "numberOfAirbags": "מספר כריות אוויר",
+    "numberOfCylinders": "מספר צילינדרים",
+    "numberOfDoors": "מספר דלתות",
+    "numberOfSeats": "מקומות ישיבה",
+    "numberOfSpeakers": "מספר רמקולים",
+    "numberOfTransmissions": "מספר הילוכים",
+    "passengerSeatHeatedFront": "כיסא נוסע קדמי מחומם",
+    "phoneBluetooth": "בלוטות'",
+    "powerWindows": "חלונות חשמליים",
+    "priceOnRoad": "מחיר בעת עלייה לכביש (ש''ח)",
+    "rainSensors": "חיישני גשם",
+    "rearTires": "גלגלים אחוריים",
+    "rpmMaximumPower": "סל''ד להספק מירבי",
+    "rpmMaximumTorgue": "סל''ד למומנט מירבי",
+    "seatBeltWarning": "אזהרת חגורת בטיחות",
+    "seatHeatedRear": "כיסא אחורי מחומם",
+    "sunroof": "חלון בגג",
+    "tintedGlass": "חלונות כהים",
+    "tirePressureIndicator": "חיישני לחץ אוויר",
+    "trafficSignRecognition": "מערכת זיהוי תמרורים",
+    "wheelbaseLength": "בסיס גלגלים (ס''מ)",
+    "wheelsType": "גלגלים",
+    "zeroTo100Seconds": "אפס למאה קמ''ש (שניות)",
+    "ignitionType": "הנעת גלגלים",
+    "pollutionGroup": "קבוצת זיהום",
+    "closeDistanceWarning": "זיהוי מצב התקרבות מסוכנת",
+    "frontDistanceAlert": "ניטור מרחק מלפנים",
+    "pedestrianCollisionWarning": "זיהוי הולכי רגל"
+  },
+  "teaserCards": {
+    "customerCar": {
+      "title": "הרכב שלך שווה כסף",
+      "subtitle": "רוצים להשתדרג,להתחדש או סתם להחליף את הרכב שלכם? העלו לכאן את הפרטים שלו ונתחיל.",
+      "placeholder": "מספר הרכב שלך",
+      "button": "הוספת רכב לטרייד אין",
+      "alt": "תמונה של החלפת רכב"
+    },
+    "tradeIn": {
+      "title": "טרייד אין אונליין",
+      "subtitle": "רוצה לקבל הצעות טרייד אין במהירות? עברו ללוח בחרו רכב מהמגוון ובקשו הצעה, זה כזה פשוט אז למה אתם מחכים!",
+      "button": "קבלו הצעות",
+      "alt": "תמונה של החלפת רכב"
+    },
+    "myInteractions": {
+      "title": "לא נמצאו פניות",
+      "subtitle": "כדי לייעל את תהליך חיפוש הרכב ולחסוך זמן, אנחנו מזמינים אותך לעבור תהליך מקוצר, ממוקד ומותאם אישית לצרכים שלך.",
+      "button": "קדימה",
+      "alt": "תמונה של החלפת רכב"
+    }
+  },
+  "contactInfoFlow": {
+    "email": "מייל",
+    "phone": "וואטסאפ",
+    "phoneNumber": "טלפון נייד",
+    "title": "לאן לשלוח עדכונים?",
+    "subtitle": "בחר/י באופציה האופטימלית עבורך",
+    "submitButton": "אישור",
+    "errorMessages": {
+      "required": "שדה חובה",
+      "emailInvalid": "מייל לא תקין"
+    }
+  },
+  "parallelImport": {
+    "title": "ייבוא מקביל",
+    "note": "שים לב! מאחר שמדובר בייבוא מקביל ייתכן שקיימים הבדלים מסוימים במפרט הרכב לעומת הדגם הנמכר בישראל על ידי היבואן הרשמי. לקבלת מידע נוסף בעניין זה אנא פנה לסוכנות",
+    "note1": "<b>שים לב!</b> מאחר שמדובר בייבוא מקביל ייתכן <br></br>שקיימים הבדלים מסוימים במפרט הרכב לעומת הדגם הנמכר בישראל על ידי היבואן הרשמי. לקבלת מידע נוסף בעניין זה אנא פנה לסוכנות"
+  },
+  "danny": {
+    "extendedPostPageTitle": "מידע נוסף שיכול לעזור לך",
+    "titleMapping": {
+      "baby_friendly": "רכב זה מותאם לתינוקות",
+      "fuel_type_options": "לרכב זה יש מנוע בנזין",
+      "good_fuel_consumption": "צריכת דלק",
+      "km": "הק״מ של הרכב",
+      "large_cargo": "נפח תא המטען",
+      "pollution": "דרגת הזיהום",
+      "safety_systems": "מערכות בטיחות",
+      "popularity": "פופולארי",
+      "off_road": "מתאים לשטח",
+      "max_safety_equipment_in_category": "מקסימום בטיחות בקטגוריה",
+      "hands": "יד ראשונה",
+      "max_airbags_count_in_category": "מקסימום כריות אוויר בקטגוריה",
+      "body_options": "רמת גימור",
+      "ignition_type_options": "אפשרויות התנעה",
+      "luxurious": "יוקרתי",
+      "only_one_type_of_gear": "סוג הילוכים אחד",
+      "award_winning": "זוכה פרסים",
+      "seats_options": "סוגי מושבים",
+      "gear_different_from_majority": "הילוכים שונים"
+    }
+  },
+  "benefit_title": {
+    "MANUFACTURER_WARRANTY": "אחריות יצרן",
+    "AGENCY_WARRANTY": "אחריות מהסוכנות ל{months} חודשים",
+    "CHASSIS": "התחייבות לבדיקת שילדה",
+    "GEAR_ENGINE_CHASSIS": "התחייבות לבדיקת גיר, מנוע ושילדה",
+    "FUTURE_TRADE_IN": "התחייבות לטרייד אין עתידי",
+    "NEW_POST": "אחריות מהסוכנות ל{months} חודשים",
+    "NEW_POST_TITLE": "עד 100% מימון",
+    "NEW_WITH_WARRANTY_MONTHS": "אחריות יצרן ל{months} חודשים"
+  },
+  "benefit_desc": {
+    "MANUFACTURER_WARRANTY": "",
+    "AGENCY_WARRANTY": "",
+    "CHASSIS": "",
+    "GEAR_ENGINE_CHASSIS": "",
+    "FUTURE_TRADE_IN": "",
+    "NEW_POST": "",
+    "NEW_POST_TITLE": "",
+    "NEW_WITH_WARRANTY_MONTHS": ""
+  }
+}

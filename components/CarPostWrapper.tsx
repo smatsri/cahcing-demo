@@ -1,4 +1,4 @@
-import { getCarPostData, getCarPostHtml } from "@/lib/carposts";
+import { getCarPostData, getCarPostHtml } from "@/lib/posts";
 import CarPost from "./CarPost/CarPost";
 
 type CarPostWrapperProps = {

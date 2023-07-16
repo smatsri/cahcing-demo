@@ -2,7 +2,7 @@ import AppThemeProvider from "@/app/AppThemeProvider";
 import { MessagesProvider } from "@/components/shared/MessagesProvider";
 import { CacheProvider } from "@emotion/react";
 import { cache as emotionCache } from "@/lib/emotion";
-import { loadData } from "@/lib/carposts";
+import { loadData } from "@/lib/posts";
 import CarPostWrapper from "@/components/CarPostWrapper";
 import styled from "@emotion/styled";
 

@@ -14,7 +14,7 @@ export const renderTodo = async (todo: Todo) => {
       <MuiTodoItem todo={todo} />
     </CacheProvider>
   );
-  const { html, css, ids } = extractCritical(fullHtml);
+  const { html } = extractCritical(fullHtml);
   return html;
 };
 

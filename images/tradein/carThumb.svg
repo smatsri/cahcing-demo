@@ -1,0 +1,19 @@
+<svg width="51" height="50" viewBox="0 0 51 50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <ellipse id="uqgudqq1gb" cx="14.508" cy="14.445" rx="14.508" ry="14.445"/>
+        <filter x="-50.3%" y="-50.5%" width="200.5%" height="200.9%" filterUnits="objectBoundingBox" id="z0pmp2vcea">
+            <feMorphology radius="1.081" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"/>
+            <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="4.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.158954327 0" in="shadowBlurOuter1"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(11 10.24)">
+            <use fill="#000" filter="url(#z0pmp2vcea)" xlink:href="#uqgudqq1gb"/>
+            <use stroke="#00B9DF" stroke-width="2.162" fill="#FFF" xlink:href="#uqgudqq1gb"/>
+        </g>
+        <path d="M34 25.064c0-.334-.076-.653-.212-.946a3.083 3.083 0 0 0-.05-.223l-1.477-3.66-.01-.033c-.517-1.538-1.252-2.962-3.116-2.962h-7.127c-1.91 0-2.585 1.46-3.113 2.954l-1.545 3.668c-.223.358-.35.767-.35 1.202v1.14c0 .175.02.347.06.513a.895.895 0 0 0-.06.322v3.387a.9.9 0 0 0 .9.9h1.865a.9.9 0 0 0 .9-.9v-1.693h9.777v1.693a.9.9 0 0 0 .9.9H33.1a.9.9 0 0 0 .899-.9V27.04a.9.9 0 0 0-.06-.322c.04-.166.06-.338.06-.514v-1.139zm-14.01-4.503c.589-1.659 1.062-2.165 2.018-2.165h7.127c.949 0 1.477.565 2.015 2.158l1.077 2.184a3.298 3.298 0 0 0-1.146-.203H19.918c-.366 0-.716.059-1.039.166l1.112-2.14zm.926 6.075h-1.969a.642.642 0 0 1 0-1.285h1.97a.642.642 0 0 1 0 1.285zm6.956-.129h-4.58a.407.407 0 0 1 0-.813h4.58a.407.407 0 1 1 0 .813zm4.13.129h-1.968a.642.642 0 0 1 0-1.285h1.969a.642.642 0 1 1 0 1.285z" fill="#00B9DF" fill-rule="nonzero"/>
+    </g>
+</svg>

@@ -1,16 +1,11 @@
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
 import { ReactNode } from "react";
-
-const darkTheme = createTheme({
-  palette: {
-    mode: "dark",
-  },
-});
+import { lightTheme } from "@/lib/theme/lightTheme";
 
 function AppThemeProvider({ children }: { children: ReactNode }) {
   return (
-    <ThemeProvider theme={darkTheme}>
+    <ThemeProvider theme={lightTheme}>
       <CssBaseline />
       {children}
     </ThemeProvider>
